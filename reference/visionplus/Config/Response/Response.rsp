@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResponseService>
+  <Settings>
+    <Response IsOpened="false" ResponseMode="Heartbeat" ResponseType="TCP">
+      <TCPResponseTypeSetting ReceiveData="Heartbeat" SendData="Heartbeat" SendInterval="0" />
+      <PLCResponseTypeSetting ReadInterval="100" WriteInterval="0" />
+    </Response>
+    <Response IsOpened="false" ResponseMode="Online" ResponseType="TCP">
+      <TCPResponseTypeSetting ReceiveData="Online" SendData="Online" SendInterval="0" />
+      <PLCResponseTypeSetting ReadInterval="100" WriteInterval="0" />
+      <Models />
+    </Response>
+    <Response IsOpened="false" ResponseMode="Offline" ResponseType="TCP">
+      <TCPResponseTypeSetting ReceiveData="Offline" SendData="Offline" SendInterval="0" />
+      <PLCResponseTypeSetting ReadInterval="100" WriteInterval="0" />
+      <Models />
+    </Response>
+    <Response IsOpened="false" ResponseMode="SwitchRecipe" ResponseType="TCP" AutoOnOfflineStatus="true">
+      <TCPResponseTypeSetting ReceiveData="Switch" SendData="Switch" SendInterval="0" />
+      <PLCResponseTypeSetting ReadInterval="100" WriteInterval="0" />
+    </Response>
+    <Response IsOpened="false" ResponseMode="PopupWindow" ResponseType="TCP">
+      <TCPResponseTypeSetting ReceiveData="Remote" SendData="Remote" SendInterval="0" />
+      <PLCResponseTypeSetting ReadInterval="100" WriteInterval="0" />
+      <SubTools />
+    </Response>
+    <Response IsOpened="false" ResponseMode="VPSController" ResponseType="TCP">
+      <TCPResponseTypeSetting ReceiveData="VPSController" SendData="VPSController" SendInterval="0" />
+      <PLCResponseTypeSetting ReadInterval="100" WriteInterval="0" />
+      <ControllerCommands SuccessResponseData="OK" ErrorResponseHeader="ERROR" SuccessResponseDataPLC="0" ErrorResponseHeaderPLC="9">
+        <Item CommandTCP="VPS_START" ActionType="VPS_Start" CommandPLC="1" />
+        <Item CommandTCP="VPS_STOP" ActionType="VPS_Stop" CommandPLC="2" />
+      </ControllerCommands>
+    </Response>
+  </Settings>
+</ResponseService>

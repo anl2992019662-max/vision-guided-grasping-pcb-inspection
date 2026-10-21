@@ -1,0 +1,45 @@
+{
+  "mode": "offline",
+  "origin": "taskbook values plus explicitly marked example conventions",
+  "camera": {
+    "ip": "192.168.1.33",
+    "model": null,
+    "source": "taskbook; actual camera configuration absent in baseline"
+  },
+  "pc": {
+    "ip": "192.168.1.44"
+  },
+  "plc": {
+    "model": "Inovance H5U",
+    "host": "192.168.1.20",
+    "port": 502,
+    "protocol": "Modbus TCP example; confirm actual PLC setup",
+    "unit_id_example": 1,
+    "control_register": 0,
+    "result_register": 1,
+    "new_demo_result_codes": {
+      "0": "WAIT",
+      "1": "OK",
+      "2": "NG"
+    }
+  },
+  "light": {
+    "ports": [
+      "COM1",
+      "COM2"
+    ],
+    "baud": 19200,
+    "command_frame": null
+  },
+  "robot": {
+    "port_from_taskbook": "COM7",
+    "baud_from_baseline": 115200,
+    "data_bits": 8,
+    "stop_bits": 1,
+    "parity": "none",
+    "model": null,
+    "line_ending": null,
+    "motion_enabled": false
+  },
+  "status": "example configuration; no live connection performed"
+}

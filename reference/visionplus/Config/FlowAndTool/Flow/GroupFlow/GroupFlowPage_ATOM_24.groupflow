@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FlowPage>
+  <Atoms>
+    <Atom Id="ATOM_24-1" CustName="" BackgroundEnum="-1" Key="Auto.GroupStart" Sequence="1" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="9347.9346525119818" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-131" CustName="吸嘴开" BackgroundEnum="5" Key="CommonIO.WriteData" Sequence="131" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_c2aa1677-b989-42c0-bed3-351b73e94d6c" IsReferenceMode="false" CustomValue="M3S1000" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_9d65b246-59b9-4874-80e8-403874460129" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_6397c93d-d0aa-4ac3-802b-71f4a240c176" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="9747.0204052729478" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-132" CustName="标定缓冲位7" BackgroundEnum="5" Key="CommonIO.WriteData" Sequence="132" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_53cf3d85-ac7f-4206-abd6-0644a89374ef" IsReferenceMode="true" CustomValue="x190y-10z100a0" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_9a81ded5-1ac8-4745-b5bc-f152aed1cb28" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_45833331-c173-4887-ab46-a99b374979b6" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources>
+          <RefSources Key="REF_53cf3d85-ac7f-4206-abd6-0644a89374ef">
+            <RefInfo RefItemId="REF_53cf3d85-ac7f-4206-abd6-0644a89374ef" SourceId="ATOM_24-140_OUTPUT_1" ItemInfo="Atom.WriteData.WriteData" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="9826.837555825141" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-133" CustName="标定缓冲位8" BackgroundEnum="5" Key="CommonIO.WriteData" Sequence="133" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_53cf3d85-ac7f-4206-abd6-0644a89374ef" IsReferenceMode="true" CustomValue="x190y0z100a0" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_9a81ded5-1ac8-4745-b5bc-f152aed1cb28" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_45833331-c173-4887-ab46-a99b374979b6" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources>
+          <RefSources Key="REF_53cf3d85-ac7f-4206-abd6-0644a89374ef">
+            <RefInfo RefItemId="REF_53cf3d85-ac7f-4206-abd6-0644a89374ef" SourceId="ATOM_24-140_OUTPUT_4" ItemInfo="Atom.WriteData.WriteData" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="9906.6547063773342" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-134" CustName="标定抓取位8" BackgroundEnum="5" Key="CommonIO.WriteData" Sequence="134" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_8faa6e07-c7d0-4d4b-9e23-277dddc424f0" IsReferenceMode="true" CustomValue="x190y0z65a0" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_575a2249-ce08-4ab4-b589-690e8b580794" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_8942882b-0f2a-49ff-a6fd-a4dbb5565199" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources>
+          <RefSources Key="REF_8faa6e07-c7d0-4d4b-9e23-277dddc424f0">
+            <RefInfo RefItemId="REF_8faa6e07-c7d0-4d4b-9e23-277dddc424f0" SourceId="ATOM_24-140_OUTPUT_2" ItemInfo="Atom.WriteData.WriteData" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="9986.4718569295273" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-135" CustName="吸嘴关" BackgroundEnum="5" Key="CommonIO.WriteData" Sequence="135" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_c2aa1677-b989-42c0-bed3-351b73e94d6c" IsReferenceMode="false" CustomValue="M3S0" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_9d65b246-59b9-4874-80e8-403874460129" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_6397c93d-d0aa-4ac3-802b-71f4a240c176" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="10385.557609690493" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-136" CustName="升起缓冲位8" BackgroundEnum="5" Key="CommonIO.WriteData" Sequence="136" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_53cf3d85-ac7f-4206-abd6-0644a89374ef" IsReferenceMode="false" CustomValue="x190y0z100a0" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_9a81ded5-1ac8-4745-b5bc-f152aed1cb28" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_45833331-c173-4887-ab46-a99b374979b6" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="10305.7404591383" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-137" CustName="安全点位" BackgroundEnum="5" Key="CommonIO.WriteData" Sequence="137" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_8faa6e07-c7d0-4d4b-9e23-277dddc424f0" IsReferenceMode="true" CustomValue="x210y130z150a0" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_575a2249-ce08-4ab4-b589-690e8b580794" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_8942882b-0f2a-49ff-a6fd-a4dbb5565199" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources>
+          <RefSources Key="REF_8faa6e07-c7d0-4d4b-9e23-277dddc424f0">
+            <RefInfo RefItemId="REF_8faa6e07-c7d0-4d4b-9e23-277dddc424f0" SourceId="ATOM_24-140_OUTPUT_5" ItemInfo="Atom.WriteData.WriteData" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="10465.374760242687" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-138" CustName="标定缓冲位7" BackgroundEnum="5" Key="CommonIO.WriteData" Sequence="138" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_53cf3d85-ac7f-4206-abd6-0644a89374ef" IsReferenceMode="true" CustomValue="x190y-10z100a0" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_9a81ded5-1ac8-4745-b5bc-f152aed1cb28" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_45833331-c173-4887-ab46-a99b374979b6" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources>
+          <RefSources Key="REF_53cf3d85-ac7f-4206-abd6-0644a89374ef">
+            <RefInfo RefItemId="REF_53cf3d85-ac7f-4206-abd6-0644a89374ef" SourceId="ATOM_24-140_OUTPUT_1" ItemInfo="Atom.WriteData.WriteData" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="9587.3861041685614" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-139" CustName="标定抓取位7" BackgroundEnum="5" Key="CommonIO.WriteData" Sequence="139" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_8faa6e07-c7d0-4d4b-9e23-277dddc424f0" IsReferenceMode="true" CustomValue="x190y-10z65a0" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_575a2249-ce08-4ab4-b589-690e8b580794" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_8942882b-0f2a-49ff-a6fd-a4dbb5565199" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources>
+          <RefSources Key="REF_8faa6e07-c7d0-4d4b-9e23-277dddc424f0">
+            <RefInfo RefItemId="REF_8faa6e07-c7d0-4d4b-9e23-277dddc424f0" SourceId="ATOM_24-140_OUTPUT_3" ItemInfo="Atom.WriteData.WriteData" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="9667.2032547207546" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-140" CustName="点位拼接" BackgroundEnum="5" Key="Setting.StringTool" Sequence="140" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting>
+        <StringOperationItems>
+          <StringOperationItem Method="Combine" Name="@标定缓冲7" Sequence="0" IsOutput="true" Description="">
+            <OperationParameter>
+              <Parameters>
+                <Parameter Sequence="0" PropertyName="ConvertableParameter" Value="x">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_cded9eb1-a822-41b5-89de-15ec25e9d6b0" IsReferenceMode="false" CustomValue="x" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="1" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_0c1c45c2-244e-44cd-9ab5-5b96f61e3248" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="2" PropertyName="ConvertableParameter" Value="y">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_f6965c60-acb9-4772-bed3-db2890bf581c" IsReferenceMode="false" CustomValue="y" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="3" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_696d9fdc-949f-4056-97ee-c5fe241151de" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="4" PropertyName="ConvertableParameter" Value="z">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_0d77f4b1-6b80-47e8-9336-48b1762a5cf5" IsReferenceMode="false" CustomValue="z" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="5" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_4f0068d6-d175-48e7-bd22-705715f49b4b" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="6" PropertyName="ConvertableParameter" Value="a0">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_ff40dc20-f443-48b5-a3ed-f8bd4211b7e8" IsReferenceMode="false" CustomValue="a0" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+              </Parameters>
+              <Separator>
+                <Parameter Sequence="0" PropertyName="Separator" Value="" />
+              </Separator>
+            </OperationParameter>
+          </StringOperationItem>
+          <StringOperationItem Method="Combine" Name="@标定抓取7" Sequence="1" IsOutput="true" Description="">
+            <OperationParameter>
+              <Parameters>
+                <Parameter Sequence="0" PropertyName="ConvertableParameter" Value="x">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_b87f431f-6f75-43cc-ae89-22a3e63d57dc" IsReferenceMode="false" CustomValue="x" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="1" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_f757cd8e-eff8-4075-9450-4ac97c443b87" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="2" PropertyName="ConvertableParameter" Value="y">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_d309a61a-8135-4706-af2b-f137481c0c0c" IsReferenceMode="false" CustomValue="y" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="3" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_6479113c-0b93-4fd0-aee5-e3c6a746c466" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="4" PropertyName="ConvertableParameter" Value="z">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_7d6dce38-3d57-4efd-80a5-db0e2ba20559" IsReferenceMode="false" CustomValue="z" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="5" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_3d5d41ba-3301-4275-a606-366da0398315" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="6" PropertyName="ConvertableParameter" Value="a0">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_f8c9cf7e-c1fd-4fe7-a728-32b9dcb3389a" IsReferenceMode="false" CustomValue="a0" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+              </Parameters>
+              <Separator>
+                <Parameter Sequence="0" PropertyName="Separator" Value="" />
+              </Separator>
+            </OperationParameter>
+          </StringOperationItem>
+          <StringOperationItem Method="Combine" Name="@标定缓冲8" Sequence="2" IsOutput="true" Description="">
+            <OperationParameter>
+              <Parameters>
+                <Parameter Sequence="0" PropertyName="ConvertableParameter" Value="x">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_69b9b564-e8b0-4f01-8e2a-1c29d3562daa" IsReferenceMode="false" CustomValue="x" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="1" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_3dc19c21-6591-4217-841e-3c19f93a0899" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="2" PropertyName="ConvertableParameter" Value="y">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_3b6b8e36-4a7d-4bf8-8794-6c6b627043cd" IsReferenceMode="false" CustomValue="y" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="3" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_43bcea15-c15f-424f-b78f-92cacd74ebbf" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="4" PropertyName="ConvertableParameter" Value="z">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_740ea07f-22ea-4c9d-b8b5-619a624633f9" IsReferenceMode="false" CustomValue="z" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="5" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_aa9e4fd5-bdbb-4dc3-8319-89cfe0730ce5" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="6" PropertyName="ConvertableParameter" Value="a0">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_f5eabfb9-b7f9-40db-85d0-ed2a9c34e5dd" IsReferenceMode="false" CustomValue="a0" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+              </Parameters>
+              <Separator>
+                <Parameter Sequence="0" PropertyName="Separator" Value="" />
+              </Separator>
+            </OperationParameter>
+          </StringOperationItem>
+          <StringOperationItem Method="Combine" Name="@标定抓取8" Sequence="3" IsOutput="true" Description="">
+            <OperationParameter>
+              <Parameters>
+                <Parameter Sequence="0" PropertyName="ConvertableParameter" Value="x">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_51bdb16c-2275-41e4-a7bc-725e9de86771" IsReferenceMode="false" CustomValue="x" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="1" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_36d7f52f-dd68-4e03-adee-03b9ab282934" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="2" PropertyName="ConvertableParameter" Value="y">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_904ed13f-f00e-4d30-8ca9-ac0b7d3c43d0" IsReferenceMode="false" CustomValue="y" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="3" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_7aa3a0ff-b770-4884-bbee-786dab8a93e6" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="4" PropertyName="ConvertableParameter" Value="z">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_ea89506f-5b4a-4666-86af-b88d2fc5ace3" IsReferenceMode="false" CustomValue="z" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="5" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_353f2e36-5778-4bde-8993-5cb1a6636a7e" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="6" PropertyName="ConvertableParameter" Value="a0">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_e8093b87-8613-403a-90d5-f2aa2359becf" IsReferenceMode="false" CustomValue="a0" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+              </Parameters>
+              <Separator>
+                <Parameter Sequence="0" PropertyName="Separator" Value="" />
+              </Separator>
+            </OperationParameter>
+          </StringOperationItem>
+          <StringOperationItem Method="Combine" Name="@安全点位" Sequence="4" IsOutput="true" Description="">
+            <OperationParameter>
+              <Parameters>
+                <Parameter Sequence="0" PropertyName="ConvertableParameter" Value="x">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_b0ad8131-6d82-410f-8484-83f5d4d46871" IsReferenceMode="false" CustomValue="x" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="1" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_286aaa07-eed7-40f3-b1a1-72787ffffba4" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="2" PropertyName="ConvertableParameter" Value="y">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_e6986e7f-d10a-4f7c-8a22-374164ba59a6" IsReferenceMode="false" CustomValue="y" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="3" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_fc669b69-f075-4bc5-811a-bc5f870d12c0" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="4" PropertyName="ConvertableParameter" Value="z">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_fb23484d-a89a-42a9-bd7f-9cf5fc83bb7b" IsReferenceMode="false" CustomValue="z" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="5" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_1fc8a65e-0f47-432f-9f15-0f016dc27663" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="6" PropertyName="ConvertableParameter" Value="a0">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_34c841cd-4c3f-4d8f-9685-8de05734f281" IsReferenceMode="false" CustomValue="a0" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+              </Parameters>
+              <Separator>
+                <Parameter Sequence="0" PropertyName="Separator" Value="" />
+              </Separator>
+            </OperationParameter>
+          </StringOperationItem>
+        </StringOperationItems>
+        <RefSources>
+          <RefSources Key="REF_3d5d41ba-3301-4275-a606-366da0398315">
+            <RefInfo RefItemId="REF_3d5d41ba-3301-4275-a606-366da0398315" SourceId="VAR_16" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_6479113c-0b93-4fd0-aee5-e3c6a746c466">
+            <RefInfo RefItemId="REF_6479113c-0b93-4fd0-aee5-e3c6a746c466" SourceId="ATOM_24-141_OUTPUT_1" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_f757cd8e-eff8-4075-9450-4ac97c443b87">
+            <RefInfo RefItemId="REF_f757cd8e-eff8-4075-9450-4ac97c443b87" SourceId="ATOM_24-146_OUTPUT_1" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_aa9e4fd5-bdbb-4dc3-8319-89cfe0730ce5">
+            <RefInfo RefItemId="REF_aa9e4fd5-bdbb-4dc3-8319-89cfe0730ce5" SourceId="VAR_15" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_43bcea15-c15f-424f-b78f-92cacd74ebbf">
+            <RefInfo RefItemId="REF_43bcea15-c15f-424f-b78f-92cacd74ebbf" SourceId="VAR_25" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_3dc19c21-6591-4217-841e-3c19f93a0899">
+            <RefInfo RefItemId="REF_3dc19c21-6591-4217-841e-3c19f93a0899" SourceId="ATOM_24-146_OUTPUT_1" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_353f2e36-5778-4bde-8993-5cb1a6636a7e">
+            <RefInfo RefItemId="REF_353f2e36-5778-4bde-8993-5cb1a6636a7e" SourceId="VAR_16" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_7aa3a0ff-b770-4884-bbee-786dab8a93e6">
+            <RefInfo RefItemId="REF_7aa3a0ff-b770-4884-bbee-786dab8a93e6" SourceId="VAR_25" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_36d7f52f-dd68-4e03-adee-03b9ab282934">
+            <RefInfo RefItemId="REF_36d7f52f-dd68-4e03-adee-03b9ab282934" SourceId="ATOM_24-146_OUTPUT_1" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_286aaa07-eed7-40f3-b1a1-72787ffffba4">
+            <RefInfo RefItemId="REF_286aaa07-eed7-40f3-b1a1-72787ffffba4" SourceId="VAR_12" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_fc669b69-f075-4bc5-811a-bc5f870d12c0">
+            <RefInfo RefItemId="REF_fc669b69-f075-4bc5-811a-bc5f870d12c0" SourceId="VAR_13" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_1fc8a65e-0f47-432f-9f15-0f016dc27663">
+            <RefInfo RefItemId="REF_1fc8a65e-0f47-432f-9f15-0f016dc27663" SourceId="VAR_14" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_0c1c45c2-244e-44cd-9ab5-5b96f61e3248">
+            <RefInfo RefItemId="REF_0c1c45c2-244e-44cd-9ab5-5b96f61e3248" SourceId="ATOM_24-146_OUTPUT_1" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_696d9fdc-949f-4056-97ee-c5fe241151de">
+            <RefInfo RefItemId="REF_696d9fdc-949f-4056-97ee-c5fe241151de" SourceId="ATOM_24-141_OUTPUT_1" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_4f0068d6-d175-48e7-bd22-705715f49b4b">
+            <RefInfo RefItemId="REF_4f0068d6-d175-48e7-bd22-705715f49b4b" SourceId="VAR_15" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="9507.5689536163682" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_24-140_OUTPUT_1" Name="@标定缓冲7" DisplayName="@标定缓冲7" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_24-140_OUTPUT_2" Name="@标定抓取8" DisplayName="@标定抓取8" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_24-140_OUTPUT_3" Name="@标定抓取7" DisplayName="@标定抓取7" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_24-140_OUTPUT_4" Name="@标定缓冲8" DisplayName="@标定缓冲8" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_24-140_OUTPUT_5" Name="@安全点位" DisplayName="@安全点位" Type="String" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-141" CustName="抓取7-Y" BackgroundEnum="5" Key="Setting.NumericExpression" Sequence="141" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Expression="@arg1-@arg2" CalcExpression="@arg1-@arg2" DecimalDigit="3" EnableDecimalDigit="false">
+        <RefParameters>
+          <Parameter Name="@arg1">
+            <RefSource>
+              <RefItem Type="Double" Id="REF_d0078bea-7a46-4cf6-a879-1712e9c6dfc0" IsReferenceMode="true" CustomValue="0" />
+            </RefSource>
+          </Parameter>
+          <Parameter Name="@arg2">
+            <RefSource>
+              <RefItem Type="Double" Id="REF_f9327361-24fe-4436-a6a9-766abf81c342" IsReferenceMode="true" CustomValue="0" />
+            </RefSource>
+          </Parameter>
+        </RefParameters>
+        <RefSources>
+          <RefSources Key="REF_d0078bea-7a46-4cf6-a879-1712e9c6dfc0">
+            <RefInfo RefItemId="REF_d0078bea-7a46-4cf6-a879-1712e9c6dfc0" SourceId="VAR_25" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_f9327361-24fe-4436-a6a9-766abf81c342">
+            <RefInfo RefItemId="REF_f9327361-24fe-4436-a6a9-766abf81c342" SourceId="VAR_21" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5604.636081169916" Left="9422.9871052884082" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_24-141_OUTPUT_1" Name="Value" DisplayName="Value" Type="Double" IsFixed="true" IsOtherItem="false" />
+        <DataItem Id="ATOM_24-141_OUTPUT_2" Name="Floor" DisplayName="Floor" Type="Int32" IsFixed="true" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-142" CustName="吸嘴吹气" BackgroundEnum="5" Key="CommonIO.WriteData" Sequence="142" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_ebd6a331-8bcf-4890-b0d5-ddbbd0555099" IsReferenceMode="false" CustomValue="M3S500" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_47c3cef8-7ee5-46dc-86ed-86035233016c" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_5b238d65-34e6-42ac-9c29-422cb73d76f9" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="10225.923308586107" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-144" CustName="" BackgroundEnum="-1" Key="Utility.Delay" Sequence="144" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_66086b50-e248-46ab-85ec-e764116a4661" IsReferenceMode="false" CustomValue="500" />
+        </Timeout>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="10066.289007481721" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-145" CustName="" BackgroundEnum="5" Key="Utility.Delay" Sequence="145" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_66086b50-e248-46ab-85ec-e764116a4661" IsReferenceMode="false" CustomValue="500" />
+        </Timeout>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5663.2965786813293" Left="10146.106158033914" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24-146" CustName="抓取8-X" BackgroundEnum="5" Key="Setting.NumericExpression" Sequence="146" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Expression="@arg1-@arg2" CalcExpression="@arg1-@arg2" DecimalDigit="3" EnableDecimalDigit="false">
+        <RefParameters>
+          <Parameter Name="@arg1">
+            <RefSource>
+              <RefItem Type="Double" Id="REF_d0078bea-7a46-4cf6-a879-1712e9c6dfc0" IsReferenceMode="true" CustomValue="0" />
+            </RefSource>
+          </Parameter>
+          <Parameter Name="@arg2">
+            <RefSource>
+              <RefItem Type="Double" Id="REF_29e66ea6-40e5-4bb0-b492-c5da71ac110b" IsReferenceMode="true" CustomValue="0" />
+            </RefSource>
+          </Parameter>
+        </RefParameters>
+        <RefSources>
+          <RefSources Key="REF_d0078bea-7a46-4cf6-a879-1712e9c6dfc0">
+            <RefInfo RefItemId="REF_d0078bea-7a46-4cf6-a879-1712e9c6dfc0" SourceId="VAR_27" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_29e66ea6-40e5-4bb0-b492-c5da71ac110b">
+            <RefInfo RefItemId="REF_29e66ea6-40e5-4bb0-b492-c5da71ac110b" SourceId="VAR_20" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5691.858168300213" Left="9427.45211487059" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_24-146_OUTPUT_1" Name="Value" DisplayName="Value" Type="Double" IsFixed="true" IsOtherItem="false" />
+        <DataItem Id="ATOM_24-146_OUTPUT_2" Name="Floor" DisplayName="Floor" Type="Int32" IsFixed="true" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+  </Atoms>
+  <Connectors>
+    <Connector Source="ATOM_24-131" Target="ATOM_24-132" />
+    <Connector Source="ATOM_24-132" Target="ATOM_24-133" />
+    <Connector Source="ATOM_24-133" Target="ATOM_24-134" />
+    <Connector Source="ATOM_24-138" Target="ATOM_24-139" />
+    <Connector Source="ATOM_24-139" Target="ATOM_24-131" />
+    <Connector Source="ATOM_24-141" Target="ATOM_24-140" />
+    <Connector Source="ATOM_24-1" Target="ATOM_24-141" />
+    <Connector Source="ATOM_24-140" Target="ATOM_24-138" />
+    <Connector Source="ATOM_24-142" Target="ATOM_24-136" />
+    <Connector Source="ATOM_24-136" Target="ATOM_24-135" />
+    <Connector Source="ATOM_24-135" Target="ATOM_24-137" />
+    <Connector Source="ATOM_24-134" Target="ATOM_24-145" />
+    <Connector Source="ATOM_24-145" Target="ATOM_24-142" />
+    <Connector Source="ATOM_24-1" Target="ATOM_24-146" />
+    <Connector Source="ATOM_24-146" Target="ATOM_24-140" />
+  </Connectors>
+  <Notes />
+</FlowPage>

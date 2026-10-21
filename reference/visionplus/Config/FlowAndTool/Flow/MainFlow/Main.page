@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FlowPage>
+  <Atoms>
+    <Atom Id="ATOM_1" CustName="机械手复位" BackgroundEnum="-1" Key="Signal.Button" Sequence="1" IsEnabled="true" IsInteruptIfFailed="false">
+      <Display Height="72" Width="72" Top="5440" Left="9776" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_2" CustName="回零" BackgroundEnum="0" Key="CommonIO.WriteData" Sequence="2" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_fcd5e602-a364-4505-aa4d-a362046059b7" IsReferenceMode="false" CustomValue="$h" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_3959beba-41f7-416d-988f-162a15f981fe" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_abdb8612-989d-4cb3-ba84-c1217e88ccbc" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5440" Left="9888" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_3" CustName="安全点位" BackgroundEnum="-1" Key="Signal.Button" Sequence="3" IsEnabled="true" IsInteruptIfFailed="false">
+      <Display Height="72" Width="72" Top="5440" Left="10016" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_4" CustName="" BackgroundEnum="1" Key="CommonIO.WriteData" Sequence="4" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_d2d632ad-8b86-4175-8530-4b35a4857fa7" IsReferenceMode="true" CustomValue="x210y130z150a0" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_a0b1f1eb-6daa-45a7-955d-f4e25b70b927" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_1553ba83-6112-4195-bf87-5d3d13d9cd55" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources>
+          <RefSources Key="REF_d2d632ad-8b86-4175-8530-4b35a4857fa7">
+            <RefInfo RefItemId="REF_d2d632ad-8b86-4175-8530-4b35a4857fa7" SourceId="ATOM_26_OUTPUT_1" ItemInfo="Atom.WriteData.WriteData" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5440" Left="10288" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_5" CustName="开吸嘴" BackgroundEnum="2" Key="CommonIO.WriteData" Sequence="5" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_39a9a4c9-2bb0-4137-beed-939a133ab033" IsReferenceMode="false" CustomValue="M3S1000" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_2af409aa-44b8-4714-99ba-157b83fda38e" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_8a5581a0-5174-448e-a2aa-ac3fcfbd60ac" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5568" Left="9888" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_6" CustName="关吸嘴" BackgroundEnum="3" Key="CommonIO.WriteData" Sequence="6" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_ebd6a331-8bcf-4890-b0d5-ddbbd0555099" IsReferenceMode="false" CustomValue="M3S0" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_47c3cef8-7ee5-46dc-86ed-86035233016c" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_5b238d65-34e6-42ac-9c29-422cb73d76f9" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5568" Left="10112" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_7" CustName="吸嘴开" BackgroundEnum="-1" Key="Signal.Button" Sequence="7" IsEnabled="true" IsInteruptIfFailed="false">
+      <Display Height="72" Width="72" Top="5568" Left="9776" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_8" CustName="吸嘴关" BackgroundEnum="-1" Key="Signal.Button" Sequence="8" IsEnabled="true" IsInteruptIfFailed="false">
+      <Display Height="72" Width="72" Top="5568" Left="10016" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_9" CustName="查询" BackgroundEnum="-1" Key="Signal.Button" Sequence="9" IsEnabled="true" IsInteruptIfFailed="false">
+      <Display Height="72" Width="72" Top="5568" Left="10656" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_10" CustName="" BackgroundEnum="4" Key="CommonIO.WriteData" Sequence="10" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_5cc09704-1d36-452a-8398-92908888c086" IsReferenceMode="false" CustomValue="?" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_9a6b82d4-01d4-4e17-b83b-4119ff39b3f9" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_8f822059-5f42-43c4-8670-e9f93fc69c26" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5568" Left="10752" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_11" CustName="点位1" BackgroundEnum="5" Key="Module.ModuleIdoc" Sequence="11" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Sequence="81" Password="" PasswordEnabled="false" SyncSave="false" GroupMode="Static">
+        <SubTools />
+        <Inputs />
+        <OutPuts>
+          <RefInputItem Type="String" Id="REF_b85506f0-d436-4a58-9156-49a7f5ff93b6" Name="Output1">
+            <RefItem Type="String" Id="REF_b85506f0-d436-4a58-9156-49a7f5ff93b6" IsReferenceMode="true" />
+          </RefInputItem>
+        </OutPuts>
+        <EnableLoop>
+          <RefItem Type="Boolean" Id="REF_fd07f3c5-b5b3-40f4-862e-6ca91504ed8d" IsReferenceMode="false" CustomValue="false" />
+        </EnableLoop>
+        <LoopNum>
+          <RefItem Type="Int32" Id="REF_d70c3790-88e0-41c5-b656-f90bf18811ad" IsReferenceMode="false" CustomValue="1" />
+        </LoopNum>
+        <SelectedRecipe>
+          <RefItem Type="{VP.Services.Vps.ModulePath$VP.Services.Vps$D:\Program Files\VisionPlus\bin\VP.Services.Vps.dll}" Id="REF_8972839e-41f2-41b7-8e3d-70e350309782" IsReferenceMode="true" />
+        </SelectedRecipe>
+        <RefSources>
+          <RefSources Key="REF_b85506f0-d436-4a58-9156-49a7f5ff93b6">
+            <RefInfo RefItemId="REF_b85506f0-d436-4a58-9156-49a7f5ff93b6" SourceId="ATOM_11-76_OUTPUT_11" ItemInfo="Output1" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5696" Left="9872" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_11_OUTPUT_1" Name="Output1" DisplayName="Output1" Type="String" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_12" CustName="手眼标定辅助" BackgroundEnum="-1" Key="Signal.Button" Sequence="12" IsEnabled="true" IsInteruptIfFailed="false">
+      <Display Height="72" Width="72" Top="5696" Left="9776" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_13" CustName="运动模式" BackgroundEnum="1" Key="CommonIO.WriteData" Sequence="13" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_d2d632ad-8b86-4175-8530-4b35a4857fa7" IsReferenceMode="false" CustomValue="m20g90g00" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_a0b1f1eb-6daa-45a7-955d-f4e25b70b927" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_1553ba83-6112-4195-bf87-5d3d13d9cd55" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5440" Left="10096" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_18" CustName="点位2" BackgroundEnum="5" Key="Module.ModuleIdoc" Sequence="18" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Sequence="89" Password="" PasswordEnabled="false" SyncSave="false" GroupMode="Static">
+        <SubTools />
+        <Inputs />
+        <OutPuts>
+          <RefInputItem Type="String" Id="REF_5593a5ed-35dd-420d-97dd-52f792dcd1f6" Name="Output1">
+            <RefItem Type="String" Id="REF_5593a5ed-35dd-420d-97dd-52f792dcd1f6" IsReferenceMode="true" />
+          </RefInputItem>
+        </OutPuts>
+        <EnableLoop>
+          <RefItem Type="Boolean" Id="REF_fd07f3c5-b5b3-40f4-862e-6ca91504ed8d" IsReferenceMode="false" CustomValue="false" />
+        </EnableLoop>
+        <LoopNum>
+          <RefItem Type="Int32" Id="REF_d70c3790-88e0-41c5-b656-f90bf18811ad" IsReferenceMode="false" CustomValue="1" />
+        </LoopNum>
+        <SelectedRecipe>
+          <RefItem Type="{VP.Services.Vps.ModulePath$VP.Services.Vps$D:\Program Files\VisionPlus\bin\VP.Services.Vps.dll}" Id="REF_8972839e-41f2-41b7-8e3d-70e350309782" IsReferenceMode="true" />
+        </SelectedRecipe>
+        <RefSources>
+          <RefSources Key="REF_5593a5ed-35dd-420d-97dd-52f792dcd1f6">
+            <RefInfo RefItemId="REF_5593a5ed-35dd-420d-97dd-52f792dcd1f6" SourceId="ATOM_18-84_OUTPUT_2" ItemInfo="Output1" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5696" Left="9952" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_18_OUTPUT_1" Name="Output1" DisplayName="Output1" Type="String" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_19" CustName="点位3" BackgroundEnum="5" Key="Module.ModuleIdoc" Sequence="19" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Sequence="99" Password="" PasswordEnabled="false" SyncSave="false" GroupMode="Static">
+        <SubTools />
+        <Inputs />
+        <OutPuts>
+          <RefInputItem Type="String" Id="REF_2f19cf3d-4d86-4c22-9573-30a53276a66d" Name="Output1">
+            <RefItem Type="String" Id="REF_2f19cf3d-4d86-4c22-9573-30a53276a66d" IsReferenceMode="true" />
+          </RefInputItem>
+        </OutPuts>
+        <EnableLoop>
+          <RefItem Type="Boolean" Id="REF_fd07f3c5-b5b3-40f4-862e-6ca91504ed8d" IsReferenceMode="false" CustomValue="false" />
+        </EnableLoop>
+        <LoopNum>
+          <RefItem Type="Int32" Id="REF_d70c3790-88e0-41c5-b656-f90bf18811ad" IsReferenceMode="false" CustomValue="1" />
+        </LoopNum>
+        <SelectedRecipe>
+          <RefItem Type="{VP.Services.Vps.ModulePath$VP.Services.Vps$D:\Program Files\VisionPlus\bin\VP.Services.Vps.dll}" Id="REF_8972839e-41f2-41b7-8e3d-70e350309782" IsReferenceMode="true" />
+        </SelectedRecipe>
+        <RefSources>
+          <RefSources Key="REF_2f19cf3d-4d86-4c22-9573-30a53276a66d">
+            <RefInfo RefItemId="REF_2f19cf3d-4d86-4c22-9573-30a53276a66d" SourceId="ATOM_19-93_OUTPUT_2" ItemInfo="Output1" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5696" Left="10032" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_19_OUTPUT_1" Name="Output1" DisplayName="Output1" Type="String" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_20" CustName="点位4" BackgroundEnum="5" Key="Module.ModuleIdoc" Sequence="20" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Sequence="112" Password="" PasswordEnabled="false" SyncSave="false" GroupMode="Static">
+        <SubTools />
+        <Inputs />
+        <OutPuts>
+          <RefInputItem Type="String" Id="REF_eea394d6-d71e-497e-a08c-3a538c2af37f" Name="Output1">
+            <RefItem Type="String" Id="REF_eea394d6-d71e-497e-a08c-3a538c2af37f" IsReferenceMode="true" />
+          </RefInputItem>
+        </OutPuts>
+        <EnableLoop>
+          <RefItem Type="Boolean" Id="REF_fd07f3c5-b5b3-40f4-862e-6ca91504ed8d" IsReferenceMode="false" CustomValue="false" />
+        </EnableLoop>
+        <LoopNum>
+          <RefItem Type="Int32" Id="REF_d70c3790-88e0-41c5-b656-f90bf18811ad" IsReferenceMode="false" CustomValue="1" />
+        </LoopNum>
+        <SelectedRecipe>
+          <RefItem Type="{VP.Services.Vps.ModulePath$VP.Services.Vps$D:\Program Files\VisionPlus\bin\VP.Services.Vps.dll}" Id="REF_8972839e-41f2-41b7-8e3d-70e350309782" IsReferenceMode="true" />
+        </SelectedRecipe>
+        <RefSources>
+          <RefSources Key="REF_eea394d6-d71e-497e-a08c-3a538c2af37f">
+            <RefInfo RefItemId="REF_eea394d6-d71e-497e-a08c-3a538c2af37f" SourceId="ATOM_20-106_OUTPUT_2" ItemInfo="Output1" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5696" Left="10112" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_20_OUTPUT_1" Name="Output1" DisplayName="Output1" Type="String" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_21" CustName="点位5" BackgroundEnum="5" Key="Module.ModuleIdoc" Sequence="21" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Sequence="117" Password="" PasswordEnabled="false" SyncSave="false" GroupMode="Static">
+        <SubTools />
+        <Inputs />
+        <OutPuts>
+          <RefInputItem Type="String" Id="REF_a7c7aaa1-847b-4439-a198-234eea63fff5" Name="Output1">
+            <RefItem Type="String" Id="REF_a7c7aaa1-847b-4439-a198-234eea63fff5" IsReferenceMode="true" />
+          </RefInputItem>
+        </OutPuts>
+        <EnableLoop>
+          <RefItem Type="Boolean" Id="REF_fd07f3c5-b5b3-40f4-862e-6ca91504ed8d" IsReferenceMode="false" CustomValue="false" />
+        </EnableLoop>
+        <LoopNum>
+          <RefItem Type="Int32" Id="REF_d70c3790-88e0-41c5-b656-f90bf18811ad" IsReferenceMode="false" CustomValue="1" />
+        </LoopNum>
+        <SelectedRecipe>
+          <RefItem Type="{VP.Services.Vps.ModulePath$VP.Services.Vps$D:\Program Files\VisionPlus\bin\VP.Services.Vps.dll}" Id="REF_8972839e-41f2-41b7-8e3d-70e350309782" IsReferenceMode="true" />
+        </SelectedRecipe>
+        <RefSources>
+          <RefSources Key="REF_a7c7aaa1-847b-4439-a198-234eea63fff5">
+            <RefInfo RefItemId="REF_a7c7aaa1-847b-4439-a198-234eea63fff5" SourceId="ATOM_21-111_OUTPUT_2" ItemInfo="Output1" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5696" Left="10192" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_21_OUTPUT_1" Name="Output1" DisplayName="Output1" Type="String" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_22" CustName="点位6" BackgroundEnum="5" Key="Module.ModuleIdoc" Sequence="22" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Sequence="128" Password="" PasswordEnabled="false" SyncSave="false" GroupMode="Static">
+        <SubTools />
+        <Inputs />
+        <OutPuts>
+          <RefInputItem Type="String" Id="REF_f083f681-2fc7-4862-87c9-4072a79aee87" Name="Output1">
+            <RefItem Type="String" Id="REF_f083f681-2fc7-4862-87c9-4072a79aee87" IsReferenceMode="true" />
+          </RefInputItem>
+        </OutPuts>
+        <EnableLoop>
+          <RefItem Type="Boolean" Id="REF_fd07f3c5-b5b3-40f4-862e-6ca91504ed8d" IsReferenceMode="false" CustomValue="false" />
+        </EnableLoop>
+        <LoopNum>
+          <RefItem Type="Int32" Id="REF_d70c3790-88e0-41c5-b656-f90bf18811ad" IsReferenceMode="false" CustomValue="1" />
+        </LoopNum>
+        <SelectedRecipe>
+          <RefItem Type="{VP.Services.Vps.ModulePath$VP.Services.Vps$D:\Program Files\VisionPlus\bin\VP.Services.Vps.dll}" Id="REF_8972839e-41f2-41b7-8e3d-70e350309782" IsReferenceMode="true" />
+        </SelectedRecipe>
+        <RefSources>
+          <RefSources Key="REF_f083f681-2fc7-4862-87c9-4072a79aee87">
+            <RefInfo RefItemId="REF_f083f681-2fc7-4862-87c9-4072a79aee87" SourceId="ATOM_22-122_OUTPUT_2" ItemInfo="Output1" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5696" Left="10272" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_22_OUTPUT_1" Name="Output1" DisplayName="Output1" Type="String" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_23" CustName="点位7" BackgroundEnum="5" Key="Module.ModuleIdoc" Sequence="23" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Sequence="137" Password="" PasswordEnabled="false" SyncSave="false" GroupMode="Static">
+        <SubTools />
+        <Inputs />
+        <OutPuts>
+          <RefInputItem Type="String" Id="REF_69a5fe6d-cdbc-4e5b-82fe-68f09614c41c" Name="Output1">
+            <RefItem Type="String" Id="REF_69a5fe6d-cdbc-4e5b-82fe-68f09614c41c" IsReferenceMode="true" />
+          </RefInputItem>
+        </OutPuts>
+        <EnableLoop>
+          <RefItem Type="Boolean" Id="REF_fd07f3c5-b5b3-40f4-862e-6ca91504ed8d" IsReferenceMode="false" CustomValue="false" />
+        </EnableLoop>
+        <LoopNum>
+          <RefItem Type="Int32" Id="REF_d70c3790-88e0-41c5-b656-f90bf18811ad" IsReferenceMode="false" CustomValue="1" />
+        </LoopNum>
+        <SelectedRecipe>
+          <RefItem Type="{VP.Services.Vps.ModulePath$VP.Services.Vps$D:\Program Files\VisionPlus\bin\VP.Services.Vps.dll}" Id="REF_8972839e-41f2-41b7-8e3d-70e350309782" IsReferenceMode="true" />
+        </SelectedRecipe>
+        <RefSources>
+          <RefSources Key="REF_69a5fe6d-cdbc-4e5b-82fe-68f09614c41c">
+            <RefInfo RefItemId="REF_69a5fe6d-cdbc-4e5b-82fe-68f09614c41c" SourceId="ATOM_23-131_OUTPUT_2" ItemInfo="Output1" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5696" Left="10352" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_23_OUTPUT_1" Name="Output1" DisplayName="Output1" Type="String" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_24" CustName="点位8" BackgroundEnum="5" Key="Module.ModuleIdoc" Sequence="24" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Sequence="147" Password="" PasswordEnabled="false" SyncSave="false" GroupMode="Static">
+        <SubTools />
+        <Inputs />
+        <OutPuts>
+          <RefInputItem Type="String" Id="REF_07187495-50d9-4fae-a023-831e3f0fb45a" Name="Output1">
+            <RefItem Type="String" Id="REF_07187495-50d9-4fae-a023-831e3f0fb45a" IsReferenceMode="true" />
+          </RefInputItem>
+        </OutPuts>
+        <EnableLoop>
+          <RefItem Type="Boolean" Id="REF_fd07f3c5-b5b3-40f4-862e-6ca91504ed8d" IsReferenceMode="false" CustomValue="false" />
+        </EnableLoop>
+        <LoopNum>
+          <RefItem Type="Int32" Id="REF_d70c3790-88e0-41c5-b656-f90bf18811ad" IsReferenceMode="false" CustomValue="1" />
+        </LoopNum>
+        <SelectedRecipe>
+          <RefItem Type="{VP.Services.Vps.ModulePath$VP.Services.Vps$D:\Program Files\VisionPlus\bin\VP.Services.Vps.dll}" Id="REF_8972839e-41f2-41b7-8e3d-70e350309782" IsReferenceMode="true" />
+        </SelectedRecipe>
+        <RefSources>
+          <RefSources Key="REF_07187495-50d9-4fae-a023-831e3f0fb45a">
+            <RefInfo RefItemId="REF_07187495-50d9-4fae-a023-831e3f0fb45a" SourceId="ATOM_24-140_OUTPUT_2" ItemInfo="Output1" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5696" Left="10432" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_24_OUTPUT_1" Name="Output1" DisplayName="Output1" Type="String" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_25" CustName="点位9" BackgroundEnum="5" Key="Module.ModuleIdoc" Sequence="25" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Sequence="155" Password="" PasswordEnabled="false" SyncSave="false" GroupMode="Static">
+        <SubTools />
+        <Inputs />
+        <OutPuts>
+          <RefInputItem Type="String" Id="REF_944fbdd0-65cf-499d-bad0-a3b034fa52c5" Name="Output1">
+            <RefItem Type="String" Id="REF_944fbdd0-65cf-499d-bad0-a3b034fa52c5" IsReferenceMode="true" />
+          </RefInputItem>
+        </OutPuts>
+        <EnableLoop>
+          <RefItem Type="Boolean" Id="REF_fd07f3c5-b5b3-40f4-862e-6ca91504ed8d" IsReferenceMode="false" CustomValue="false" />
+        </EnableLoop>
+        <LoopNum>
+          <RefItem Type="Int32" Id="REF_d70c3790-88e0-41c5-b656-f90bf18811ad" IsReferenceMode="false" CustomValue="1" />
+        </LoopNum>
+        <SelectedRecipe>
+          <RefItem Type="{VP.Services.Vps.ModulePath$VP.Services.Vps$D:\Program Files\VisionPlus\bin\VP.Services.Vps.dll}" Id="REF_8972839e-41f2-41b7-8e3d-70e350309782" IsReferenceMode="true" />
+        </SelectedRecipe>
+        <RefSources>
+          <RefSources Key="REF_944fbdd0-65cf-499d-bad0-a3b034fa52c5">
+            <RefInfo RefItemId="REF_944fbdd0-65cf-499d-bad0-a3b034fa52c5" SourceId="ATOM_25-149_OUTPUT_2" ItemInfo="Output1" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5696" Left="10512" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_25_OUTPUT_1" Name="Output1" DisplayName="Output1" Type="String" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_26" CustName="" BackgroundEnum="1" Key="Setting.StringTool" Sequence="26" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting>
+        <StringOperationItems>
+          <StringOperationItem Method="Combine" Name="@移动点位" Sequence="0" IsOutput="true" Description="">
+            <OperationParameter>
+              <Parameters>
+                <Parameter Sequence="0" PropertyName="ConvertableParameter" Value="x">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_f50014e8-a2a1-4fa6-9a81-dea4f3de4c36" IsReferenceMode="false" CustomValue="x" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="1" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_7be43a0a-25d1-43e5-a73a-95fa910a517e" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="2" PropertyName="ConvertableParameter" Value="y">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_9338e75b-c6e7-43dd-8867-779172c2cc91" IsReferenceMode="false" CustomValue="y" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="3" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_2ac4a0bc-6626-449c-b4d9-ce8ef298c2c5" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="4" PropertyName="ConvertableParameter" Value="z">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_8894f5ca-59c0-4fa0-af3e-fda054046109" IsReferenceMode="false" CustomValue="z" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+                <Parameter Sequence="5" PropertyName="ConvertableParameter" Value="">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_3220b82a-55b7-4cc2-a3e8-5b1831c39405" IsReferenceMode="true" />
+                  </RefParameter>
+                  <FormatContextSetting>
+                    <FormatContext Name="NumberToString" IsRegularFormat="false" TotalWidth="6" NumberDecimalDigits="3" PaddingChar="0" PaddingMode="Left" />
+                  </FormatContextSetting>
+                </Parameter>
+                <Parameter Sequence="6" PropertyName="ConvertableParameter" Value="a0">
+                  <RefParameter>
+                    <RefItem Type="String" Id="REF_b8aff39c-1bab-4753-9df8-29c231344133" IsReferenceMode="false" CustomValue="a0" />
+                  </RefParameter>
+                  <FormatContextSetting />
+                </Parameter>
+              </Parameters>
+              <Separator>
+                <Parameter Sequence="0" PropertyName="Separator" Value="" />
+              </Separator>
+            </OperationParameter>
+          </StringOperationItem>
+        </StringOperationItems>
+        <RefSources>
+          <RefSources Key="REF_7be43a0a-25d1-43e5-a73a-95fa910a517e">
+            <RefInfo RefItemId="REF_7be43a0a-25d1-43e5-a73a-95fa910a517e" SourceId="VAR_12" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_2ac4a0bc-6626-449c-b4d9-ce8ef298c2c5">
+            <RefInfo RefItemId="REF_2ac4a0bc-6626-449c-b4d9-ce8ef298c2c5" SourceId="VAR_13" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_3220b82a-55b7-4cc2-a3e8-5b1831c39405">
+            <RefInfo RefItemId="REF_3220b82a-55b7-4cc2-a3e8-5b1831c39405" SourceId="VAR_14" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5440" Left="10192" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_26_OUTPUT_1" Name="@移动点位" DisplayName="@移动点位" Type="String" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_27" CustName="吸嘴吹气" BackgroundEnum="6" Key="CommonIO.WriteData" Sequence="27" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting DeviceID="Device_4" WriteInHex="false" EndCode="CRLF">
+        <WriteData>
+          <RefItem Type="String" Id="REF_ebd6a331-8bcf-4890-b0d5-ddbbd0555099" IsReferenceMode="false" CustomValue="M3S500" />
+        </WriteData>
+        <Port>
+          <RefItem Type="Int32" Id="REF_47c3cef8-7ee5-46dc-86ed-86035233016c" IsReferenceMode="false" CustomValue="0" />
+        </Port>
+        <Timeout>
+          <RefItem Type="Int32" Id="REF_5b238d65-34e6-42ac-9c29-422cb73d76f9" IsReferenceMode="false" CustomValue="2000" />
+        </Timeout>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5568" Left="10400" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_28" CustName="吸嘴吹气" BackgroundEnum="-1" Key="Signal.Button" Sequence="28" IsEnabled="true" IsInteruptIfFailed="false">
+      <Display Height="72" Width="72" Top="5568" Left="10320" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_29" CustName="九点坐标记录" BackgroundEnum="5" Key="Module.ModuleIdoc" Sequence="29" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Sequence="3" Password="" PasswordEnabled="false" SyncSave="false" GroupMode="Static">
+        <SubTools />
+        <Inputs>
+          <RefInputItem Type="String" Id="REF_a58f4fc5-9842-46c4-96c2-408a4b6fef8e" Name="Input_1">
+            <RefItem Type="String" Id="REF_a58f4fc5-9842-46c4-96c2-408a4b6fef8e" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_2df14603-aa68-45e7-b562-99ac78976ed1" Name="Input_2">
+            <RefItem Type="String" Id="REF_2df14603-aa68-45e7-b562-99ac78976ed1" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_fa9e265e-40ec-43c4-ac4c-aa29600aa492" Name="Input_3">
+            <RefItem Type="String" Id="REF_fa9e265e-40ec-43c4-ac4c-aa29600aa492" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_bf56757f-d14e-4954-8ac3-3766da1dc237" Name="Input_4">
+            <RefItem Type="String" Id="REF_bf56757f-d14e-4954-8ac3-3766da1dc237" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_83ad95b0-347c-4a22-a7d8-8f5a8b548d44" Name="Input_5">
+            <RefItem Type="String" Id="REF_83ad95b0-347c-4a22-a7d8-8f5a8b548d44" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_e4c73a29-8453-4963-9289-238e40044f2e" Name="Input_6">
+            <RefItem Type="String" Id="REF_e4c73a29-8453-4963-9289-238e40044f2e" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_d91df659-f9f5-4636-835b-15a14fe85285" Name="Input_7">
+            <RefItem Type="String" Id="REF_d91df659-f9f5-4636-835b-15a14fe85285" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_c045733f-7ff8-4cba-8dab-e964e3a06fd6" Name="Input_8">
+            <RefItem Type="String" Id="REF_c045733f-7ff8-4cba-8dab-e964e3a06fd6" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_f10e82d2-534f-4a1c-a156-ebb0df3a5161" Name="Input_9">
+            <RefItem Type="String" Id="REF_f10e82d2-534f-4a1c-a156-ebb0df3a5161" IsReferenceMode="true" />
+          </RefInputItem>
+        </Inputs>
+        <OutPuts>
+          <RefInputItem Type="String" Id="REF_8091a761-c160-4f81-be5a-d318d79e7a1f" Name="平移1">
+            <RefItem Type="String" Id="REF_8091a761-c160-4f81-be5a-d318d79e7a1f" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_1d7f46e2-63ce-4d7d-b06e-18b5f916f0d7" Name="平移2">
+            <RefItem Type="String" Id="REF_1d7f46e2-63ce-4d7d-b06e-18b5f916f0d7" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_2062289d-6546-4f01-bf5c-60731c71ad9f" Name="平移3">
+            <RefItem Type="String" Id="REF_2062289d-6546-4f01-bf5c-60731c71ad9f" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_973d2c7c-52a1-431a-813b-83446c020217" Name="平移4">
+            <RefItem Type="String" Id="REF_973d2c7c-52a1-431a-813b-83446c020217" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_70f7ebc1-d110-44a4-b7d6-158eac10e71c" Name="平移5">
+            <RefItem Type="String" Id="REF_70f7ebc1-d110-44a4-b7d6-158eac10e71c" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_be2ff315-3ff2-4a49-ae8a-122019c9e55e" Name="平移6">
+            <RefItem Type="String" Id="REF_be2ff315-3ff2-4a49-ae8a-122019c9e55e" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_71b842b2-7d9f-4b07-9621-0388d5e80c22" Name="平移7">
+            <RefItem Type="String" Id="REF_71b842b2-7d9f-4b07-9621-0388d5e80c22" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_accd2bc9-c01a-4710-a982-b516b2ef0b1d" Name="平移8">
+            <RefItem Type="String" Id="REF_accd2bc9-c01a-4710-a982-b516b2ef0b1d" IsReferenceMode="true" />
+          </RefInputItem>
+          <RefInputItem Type="String" Id="REF_2b80700f-f4b8-4e99-9ff7-cc3cdca220ed" Name="平移9">
+            <RefItem Type="String" Id="REF_2b80700f-f4b8-4e99-9ff7-cc3cdca220ed" IsReferenceMode="true" />
+          </RefInputItem>
+        </OutPuts>
+        <EnableLoop>
+          <RefItem Type="Boolean" Id="REF_2dd9eed4-3c76-4aa5-b9c7-a50ec66f56f9" IsReferenceMode="false" CustomValue="false" />
+        </EnableLoop>
+        <LoopNum>
+          <RefItem Type="Int32" Id="REF_ac7b2ba0-8550-4516-bf1f-3fc60eff4ff8" IsReferenceMode="false" CustomValue="1" />
+        </LoopNum>
+        <SelectedRecipe>
+          <RefItem Type="{VP.Services.Vps.ModulePath$VP.Services.Vps$D:\Program Files\VisionPlus\bin\VP.Services.Vps.dll}" Id="REF_546eba88-f068-44b7-b682-0267d5dc90d2" IsReferenceMode="true" />
+        </SelectedRecipe>
+        <RefSources>
+          <RefSources Key="REF_a58f4fc5-9842-46c4-96c2-408a4b6fef8e">
+            <RefInfo RefItemId="REF_a58f4fc5-9842-46c4-96c2-408a4b6fef8e" SourceId="ATOM_11_OUTPUT_1" ItemInfo="Input_1" />
+          </RefSources>
+          <RefSources Key="REF_2df14603-aa68-45e7-b562-99ac78976ed1">
+            <RefInfo RefItemId="REF_2df14603-aa68-45e7-b562-99ac78976ed1" SourceId="ATOM_18_OUTPUT_1" ItemInfo="Input_2" />
+          </RefSources>
+          <RefSources Key="REF_fa9e265e-40ec-43c4-ac4c-aa29600aa492">
+            <RefInfo RefItemId="REF_fa9e265e-40ec-43c4-ac4c-aa29600aa492" SourceId="ATOM_19_OUTPUT_1" ItemInfo="Input_3" />
+          </RefSources>
+          <RefSources Key="REF_bf56757f-d14e-4954-8ac3-3766da1dc237">
+            <RefInfo RefItemId="REF_bf56757f-d14e-4954-8ac3-3766da1dc237" SourceId="ATOM_20_OUTPUT_1" ItemInfo="Input_4" />
+          </RefSources>
+          <RefSources Key="REF_83ad95b0-347c-4a22-a7d8-8f5a8b548d44">
+            <RefInfo RefItemId="REF_83ad95b0-347c-4a22-a7d8-8f5a8b548d44" SourceId="ATOM_21_OUTPUT_1" ItemInfo="Input_5" />
+          </RefSources>
+          <RefSources Key="REF_e4c73a29-8453-4963-9289-238e40044f2e">
+            <RefInfo RefItemId="REF_e4c73a29-8453-4963-9289-238e40044f2e" SourceId="ATOM_22_OUTPUT_1" ItemInfo="Input_6" />
+          </RefSources>
+          <RefSources Key="REF_d91df659-f9f5-4636-835b-15a14fe85285">
+            <RefInfo RefItemId="REF_d91df659-f9f5-4636-835b-15a14fe85285" SourceId="ATOM_23_OUTPUT_1" ItemInfo="Input_7" />
+          </RefSources>
+          <RefSources Key="REF_c045733f-7ff8-4cba-8dab-e964e3a06fd6">
+            <RefInfo RefItemId="REF_c045733f-7ff8-4cba-8dab-e964e3a06fd6" SourceId="ATOM_24_OUTPUT_1" ItemInfo="Input_8" />
+          </RefSources>
+          <RefSources Key="REF_f10e82d2-534f-4a1c-a156-ebb0df3a5161">
+            <RefInfo RefItemId="REF_f10e82d2-534f-4a1c-a156-ebb0df3a5161" SourceId="ATOM_25_OUTPUT_1" ItemInfo="Input_9" />
+          </RefSources>
+          <RefSources Key="REF_8091a761-c160-4f81-be5a-d318d79e7a1f">
+            <RefInfo RefItemId="REF_8091a761-c160-4f81-be5a-d318d79e7a1f" SourceId="ATOM_29-2_OUTPUT_1" ItemInfo="平移1" />
+          </RefSources>
+          <RefSources Key="REF_1d7f46e2-63ce-4d7d-b06e-18b5f916f0d7">
+            <RefInfo RefItemId="REF_1d7f46e2-63ce-4d7d-b06e-18b5f916f0d7" SourceId="ATOM_29-2_OUTPUT_2" ItemInfo="平移2" />
+          </RefSources>
+          <RefSources Key="REF_2062289d-6546-4f01-bf5c-60731c71ad9f">
+            <RefInfo RefItemId="REF_2062289d-6546-4f01-bf5c-60731c71ad9f" SourceId="ATOM_29-2_OUTPUT_3" ItemInfo="平移3" />
+          </RefSources>
+          <RefSources Key="REF_973d2c7c-52a1-431a-813b-83446c020217">
+            <RefInfo RefItemId="REF_973d2c7c-52a1-431a-813b-83446c020217" SourceId="ATOM_29-2_OUTPUT_4" ItemInfo="平移4" />
+          </RefSources>
+          <RefSources Key="REF_70f7ebc1-d110-44a4-b7d6-158eac10e71c">
+            <RefInfo RefItemId="REF_70f7ebc1-d110-44a4-b7d6-158eac10e71c" SourceId="ATOM_29-2_OUTPUT_5" ItemInfo="平移5" />
+          </RefSources>
+          <RefSources Key="REF_be2ff315-3ff2-4a49-ae8a-122019c9e55e">
+            <RefInfo RefItemId="REF_be2ff315-3ff2-4a49-ae8a-122019c9e55e" SourceId="ATOM_29-2_OUTPUT_6" ItemInfo="平移6" />
+          </RefSources>
+          <RefSources Key="REF_71b842b2-7d9f-4b07-9621-0388d5e80c22">
+            <RefInfo RefItemId="REF_71b842b2-7d9f-4b07-9621-0388d5e80c22" SourceId="ATOM_29-2_OUTPUT_7" ItemInfo="平移7" />
+          </RefSources>
+          <RefSources Key="REF_accd2bc9-c01a-4710-a982-b516b2ef0b1d">
+            <RefInfo RefItemId="REF_accd2bc9-c01a-4710-a982-b516b2ef0b1d" SourceId="ATOM_29-2_OUTPUT_8" ItemInfo="平移8" />
+          </RefSources>
+          <RefSources Key="REF_2b80700f-f4b8-4e99-9ff7-cc3cdca220ed">
+            <RefInfo RefItemId="REF_2b80700f-f4b8-4e99-9ff7-cc3cdca220ed" SourceId="ATOM_29-2_OUTPUT_9" ItemInfo="平移9" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5696" Left="10592" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_29_OUTPUT_1" Name="平移1" DisplayName="平移1" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_29_OUTPUT_2" Name="平移2" DisplayName="平移2" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_29_OUTPUT_3" Name="平移3" DisplayName="平移3" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_29_OUTPUT_4" Name="平移4" DisplayName="平移4" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_29_OUTPUT_5" Name="平移5" DisplayName="平移5" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_29_OUTPUT_6" Name="平移6" DisplayName="平移6" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_29_OUTPUT_7" Name="平移7" DisplayName="平移7" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_29_OUTPUT_8" Name="平移8" DisplayName="平移8" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_29_OUTPUT_9" Name="平移9" DisplayName="平移9" Type="String" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_30" CustName="示教流程" BackgroundEnum="-1" Key="Signal.Button" Sequence="30" IsEnabled="true" IsInteruptIfFailed="false">
+      <Display Height="72" Width="72" Top="5936" Left="9776" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_33" CustName="取放料" BackgroundEnum="7" Key="Module.ModuleIdoc" Sequence="33" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting Sequence="26" Password="" PasswordEnabled="false" SyncSave="false" GroupMode="Static">
+        <SubTools />
+        <Inputs />
+        <OutPuts />
+        <EnableLoop>
+          <RefItem Type="Boolean" Id="REF_94795462-8408-4641-8043-e7ed77ac482d" IsReferenceMode="false" CustomValue="false" />
+        </EnableLoop>
+        <LoopNum>
+          <RefItem Type="Int32" Id="REF_063c5389-b63e-435e-9007-0ecd1038933d" IsReferenceMode="false" CustomValue="1" />
+        </LoopNum>
+        <SelectedRecipe>
+          <RefItem Type="{VP.Services.Vps.ModulePath$VP.Services.Vps$D:\Program Files\VisionPlus\bin\VP.Services.Vps.dll}" Id="REF_9446491e-f878-4960-91df-ad99a28f782d" IsReferenceMode="true" />
+        </SelectedRecipe>
+        <RefSources />
+      </Setting>
+      <Display Height="72" Width="72" Top="5936" Left="9856" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+  </Atoms>
+  <Connectors>
+    <Connector Source="ATOM_1" Target="ATOM_2" SignalType="None" />
+    <Connector Source="ATOM_7" Target="ATOM_5" SignalType="None" />
+    <Connector Source="ATOM_8" Target="ATOM_6" SignalType="None" />
+    <Connector Source="ATOM_9" Target="ATOM_10" SignalType="None" />
+    <Connector Source="ATOM_12" Target="ATOM_11" SignalType="None" />
+    <Connector Source="ATOM_3" Target="ATOM_13" SignalType="None" />
+    <Connector Source="ATOM_11" Target="ATOM_18" />
+    <Connector Source="ATOM_18" Target="ATOM_19" />
+    <Connector Source="ATOM_19" Target="ATOM_20" />
+    <Connector Source="ATOM_20" Target="ATOM_21" />
+    <Connector Source="ATOM_21" Target="ATOM_22" />
+    <Connector Source="ATOM_22" Target="ATOM_23" />
+    <Connector Source="ATOM_23" Target="ATOM_24" />
+    <Connector Source="ATOM_24" Target="ATOM_25" />
+    <Connector Source="ATOM_13" Target="ATOM_26" />
+    <Connector Source="ATOM_26" Target="ATOM_4" />
+    <Connector Source="ATOM_28" Target="ATOM_27" SignalType="None" />
+    <Connector Source="ATOM_25" Target="ATOM_29" />
+    <Connector Source="ATOM_30" Target="ATOM_33" SignalType="None" />
+  </Connectors>
+  <Notes />
+</FlowPage>

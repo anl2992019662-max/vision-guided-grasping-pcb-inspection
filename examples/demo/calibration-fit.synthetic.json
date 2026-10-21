@@ -1,0 +1,18 @@
+{
+  "matrix": [
+    [
+      0.05000000000000027,
+      1.1102230246251565e-16,
+      179.99999999999991
+    ],
+    [
+      2.1168967258798117e-16,
+      -0.04999999999999993,
+      149.9999999999999
+    ]
+  ],
+  "fit_rms_mm": 1.180442248897588e-13,
+  "point_count": 9,
+  "scope": "planar affine fit; fit residual is not independent hardware accuracy",
+  "is_synthetic": true
+}

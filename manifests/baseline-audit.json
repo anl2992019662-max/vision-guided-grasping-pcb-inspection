@@ -1,0 +1,29 @@
+{
+  "hmi_controls": 0,
+  "configured_devices": [
+    {
+      "id": "Device_4",
+      "type": "Communication.SerialPort",
+      "baud": 115200,
+      "state": "Closed"
+    }
+  ],
+  "unconfigured_camera_reference": "Device_5",
+  "top_level_atoms": 27,
+  "toolbox_algorithms": [
+    "ATOM_37",
+    "ATOM_41",
+    "ATOM_49"
+  ],
+  "missing_main_algorithm_nodes": [
+    "ATOM_37",
+    "ATOM_41",
+    "ATOM_49"
+  ],
+  "notes": [
+    "HMI Tools is empty",
+    "Only serial device is configured; camera and PLC connections are not present",
+    "Baseline algorithm toolbox contains traditional image tools; no exported deep-learning model is supplied",
+    "Actual camera/robot, PLC program, full image dataset and runtime verification are not included"
+  ]
+}

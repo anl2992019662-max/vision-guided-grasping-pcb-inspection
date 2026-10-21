@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VariableService>
+  <VGroups>
+    <VariableGroup Id="Group_3" Name="标定">
+      <Variables>
+        <DataItem Id="VAR_12" Name="安全点X" DisplayName="安全点X" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="210" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_13" Name="安全点Y" DisplayName="安全点Y" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="130" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_14" Name="安全点Z" DisplayName="安全点Z" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="150" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_15" Name="标定缓冲高度" DisplayName="标定缓冲高度" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="70" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_16" Name="标定吸放高度" DisplayName="标定吸放高度" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="50" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_17" Name="初始抓取点位X" DisplayName="初始抓取点位X" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="210" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_18" Name="初始抓取点位Y" DisplayName="初始抓取点位Y" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="130" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_27" Name="标定第一个点X" DisplayName="标定第一个点X" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="210" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_25" Name="标定第一个点Y" DisplayName="标定第一个点Y" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="130" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_20" Name="X偏移" DisplayName="X偏移" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="30" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_21" Name="Y偏移" DisplayName="Y偏移" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="30" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+      </Variables>
+    </VariableGroup>
+    <VariableGroup Id="Group_4" Name="示教">
+      <Variables>
+        <DataItem Id="VAR_22" Name="示教抓取点位X" DisplayName="示教抓取点位X" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="210" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_23" Name="示教抓取点位Y" DisplayName="示教抓取点位Y" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="130" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_24" Name="示教放置点X" DisplayName="示教放置点X" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="210" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_28" Name="示教放置点Y" DisplayName="示教放置点Y" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="130" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_32" Name="示教吸放高度" DisplayName="示教吸放高度" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="50" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+        <DataItem Id="VAR_33" Name="示教缓冲高度" DisplayName="示教缓冲高度" Type="Double" IsFixed="false" IsOtherItem="false" DefaultValue="0" Value="70" RevertToDefaultValue="false" Definition="" Description="" EditMode="Write" />
+      </Variables>
+    </VariableGroup>
+  </VGroups>
+</VariableService>

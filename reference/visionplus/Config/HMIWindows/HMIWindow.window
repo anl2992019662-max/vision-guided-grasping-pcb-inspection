@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HMIWindow ID="HMIWindow_1" Width="1920" Height="1080" Title="HMIWindow" AutoStart="false" IsModal="false" IsMainWindow="true" MinWidth="10" MaxWidth="9999" MinHeight="10" MaxHeight="9999" UserValid="true" FullScreenValid="true" LicenseValid="true" VpsValid="true" AdjustSizeValid="true" Background="#FF1C1F22">
+  <HMIRuntime Width="1550.4" Height="838.40000000000009" X="-6.4" Y="19" FullScreen="false" WindowState="2" />
+  <Tools />
+</HMIWindow>

@@ -1,0 +1,79 @@
+{
+  "image_size": [
+    960,
+    640
+  ],
+  "coordinate_system": "fixed synthetic fixture, pixels",
+  "components": [
+    {
+      "id": "R1",
+      "kind": "resistor",
+      "box": [
+        160,
+        180,
+        240,
+        220
+      ],
+      "variance_min": 1000,
+      "variance_max": 16000
+    },
+    {
+      "id": "R2",
+      "kind": "resistor",
+      "box": [
+        160,
+        280,
+        240,
+        320
+      ],
+      "variance_min": 1000,
+      "variance_max": 16000
+    },
+    {
+      "id": "R3",
+      "kind": "resistor",
+      "box": [
+        160,
+        380,
+        240,
+        420
+      ],
+      "variance_min": 1000,
+      "variance_max": 16000
+    },
+    {
+      "id": "C1",
+      "kind": "capacitor",
+      "box": [
+        330,
+        180,
+        390,
+        240
+      ],
+      "orange_min": 0.35
+    },
+    {
+      "id": "C2",
+      "kind": "capacitor",
+      "box": [
+        330,
+        360,
+        390,
+        420
+      ],
+      "orange_min": 0.35
+    },
+    {
+      "id": "U1",
+      "kind": "chip",
+      "box": [
+        500,
+        220,
+        660,
+        360
+      ],
+      "dark_threshold": 60,
+      "dark_min": 0.6
+    }
+  ]
+}

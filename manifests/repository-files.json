@@ -1,0 +1,725 @@
+{
+  "scope": "repository files except this inventory itself",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 138,
+      "sha256": "904e31b51f3b6186ae89857753615ad129d9144a6974b9f8fd77e063c9f15b30"
+    },
+    {
+      "file": ".github/workflows/check.yml",
+      "bytes": 537,
+      "sha256": "9713bb148130fa3c36ada11ac49ca715c2ab5a04b9e393f18e878bad04d9a217"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 193,
+      "sha256": "594bd4e30d5162cfe7fd4711ed3d068533ca152ca343ac7e8950e5372587550c"
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "bytes": 564,
+      "sha256": "8308b91b04343c590ebc4eeffa9b77de1204052e56b014288b2ebd280dd288c1"
+    },
+    {
+      "file": "docs/commissioning.md",
+      "bytes": 2776,
+      "sha256": "26712632c7cc3f533a4d408e029d3e24f81843ed6f1f6b65afca2ffbcd16bcad"
+    },
+    {
+      "file": "docs/gallery.md",
+      "bytes": 3352,
+      "sha256": "b0fbb078214d83c8eea9ec5599fad84813d2f5bd336be1f05c2b8f91e8453d9c"
+    },
+    {
+      "file": "docs/hardware-references.md",
+      "bytes": 2040,
+      "sha256": "ff833d7cb3aa46a28406efdcaae09baf48b181dc9832ded8ec3b9f17d86104e4"
+    },
+    {
+      "file": "docs/images/image-data-flow.svg",
+      "bytes": 3744,
+      "sha256": "f15b3e2b4004fcff4bff2c7ff8092a522ffc7971796b95b53c083d2cae8538c0"
+    },
+    {
+      "file": "docs/images/inspection-flow.svg",
+      "bytes": 3801,
+      "sha256": "f955275973cafb448b20ace1c2317578b74bf9d6dce780ae3fd647abf50d5bb8"
+    },
+    {
+      "file": "docs/images/nine-point-calibration.svg",
+      "bytes": 4928,
+      "sha256": "ce18ec15952732af354fb78e7afaacab9e0e9acbba88b7a21b500bd56121bebf"
+    },
+    {
+      "file": "docs/images/offline-results.png",
+      "bytes": 1188049,
+      "sha256": "fa9e2fb0e7aefcba46ac5f5cdcf03c45c70376c8ec8ea74459aa1c735a03eb22"
+    },
+    {
+      "file": "docs/images/optics-exercise.svg",
+      "bytes": 3336,
+      "sha256": "763c6011f1a547832ec7dd235a7aa4611d1ac5f82450ce1e5df9e24e0912e17d"
+    },
+    {
+      "file": "docs/images/pick-place-flow.svg",
+      "bytes": 3821,
+      "sha256": "db739f1b38fe77c87e8be929781b484bcaa51381b3e753b4cb9e9af6012e9d83"
+    },
+    {
+      "file": "docs/images/reference/camera-reference.jpg",
+      "bytes": 1722800,
+      "sha256": "6882fba51eaa084d38f21e3edc622811ba07d3107942e12f85dd97a83486832d"
+    },
+    {
+      "file": "docs/images/reference/robot-reference.jpg",
+      "bytes": 10963,
+      "sha256": "395713f2ba5ad3456eefeff63cd46b244b14d438c7cfb4e1c87b426a540b24f2"
+    },
+    {
+      "file": "docs/images/source/baseline-flow.png",
+      "bytes": 46698,
+      "sha256": "fe2448d56cd9691fd0dc3b146a5669dacc278f469d7c3da7543c9b6b5557257e"
+    },
+    {
+      "file": "docs/images/source/taskbook-1.png",
+      "bytes": 68606,
+      "sha256": "f0f84b99a3aa50508b488e065b715a9a42721ae5823ea36023e3609c4266605a"
+    },
+    {
+      "file": "docs/images/source/taskbook-2.png",
+      "bytes": 66492,
+      "sha256": "7937d5bc876f52fdc1d125dd39a14f82343f8f206df95e004d53c40330dca08b"
+    },
+    {
+      "file": "docs/images/source/taskbook-3.png",
+      "bytes": 35699,
+      "sha256": "5738f1c698b6eec398e22e9158d535ed9b7ee00c8ad52dc8c4baa8895085879a"
+    },
+    {
+      "file": "docs/images/source/taskbook-4.png",
+      "bytes": 82905,
+      "sha256": "b91468da56d7a23eee6b0a648cc435cdf4e42724bff072236ce67f9b66a0c8f3"
+    },
+    {
+      "file": "docs/images/source/training-reference-01.png",
+      "bytes": 1204664,
+      "sha256": "2c76405ee28b578ad90463f246ca586e726c92a91dd578d031bb7dee4507ebf2"
+    },
+    {
+      "file": "docs/images/source/training-reference-02.png",
+      "bytes": 2135500,
+      "sha256": "d9f2959717fc799c9f857a2932fcdc51ced88fdf0a3d019c13faee69d2da5eaa"
+    },
+    {
+      "file": "docs/images/source/training-reference-03.png",
+      "bytes": 3029710,
+      "sha256": "832b5e47766862005291b34f0ed436baafc8a36088d188b54e616045904c0b01"
+    },
+    {
+      "file": "docs/images/source/training-reference-04.png",
+      "bytes": 3037846,
+      "sha256": "c93e230dfadc2f6cb627cd332281148a5e2586ef1e214ba49193793c2511dde6"
+    },
+    {
+      "file": "docs/images/station-blueprint.svg",
+      "bytes": 7846,
+      "sha256": "0a8dbed062ed3b57eee88d8efe3ec2d9e525c75c261e0fcf95c1e3c7446bf53c"
+    },
+    {
+      "file": "docs/images/system-topology.svg",
+      "bytes": 4377,
+      "sha256": "e281d813823932f6b9b07f6784ed05d7158c148d20454f3fc8a1fa1d8c3bc966"
+    },
+    {
+      "file": "docs/requirements.md",
+      "bytes": 2462,
+      "sha256": "87dea5ac175442e25ac6f945713d86cfddfdd906374e458903c1a421ed844b74"
+    },
+    {
+      "file": "docs/taskbook-transcript.md",
+      "bytes": 2973,
+      "sha256": "d1c6aee4e2dc7208f0daef5db7fd23327f605195d30a9c7a5ce46c96ab3fc022"
+    },
+    {
+      "file": "docs/usage.md",
+      "bytes": 2978,
+      "sha256": "fa9d98c68ee3de632d6bb567dcd8cd3cae51fe6bb7d9598162802f57ac791e87"
+    },
+    {
+      "file": "docs/validation.md",
+      "bytes": 2937,
+      "sha256": "ab8ed0acfa7a932f74ee078ad83d29952d3c0bb7fef337a06eff6bfd095ef62c"
+    },
+    {
+      "file": "examples/demo/calibration-fit.synthetic.json",
+      "bytes": 377,
+      "sha256": "841ffa5efcc9afbb517cf98bb64c1553a020da574bdacfc8bd1fafe30dde4388"
+    },
+    {
+      "file": "examples/demo/calibration.synthetic.json",
+      "bytes": 962,
+      "sha256": "f873d566fa64a249bd7be5b90b1389b239e29a92efac75f7cd09ae9747d1d54b"
+    },
+    {
+      "file": "examples/demo/images/RecordImage_20261021T060652417679Z_missing_capacitor.png",
+      "bytes": 814112,
+      "sha256": "2604e7b44ff679f51df91a0da45102cb5893d0ab5d8130bb7f45dc857723a35d"
+    },
+    {
+      "file": "examples/demo/images/RecordImage_20261021T060652417679Z_missing_chip.png",
+      "bytes": 813490,
+      "sha256": "817b88252d1f6eb3998cb476b9cbf1e47866a5f2c57d1ddcfb20718725148330"
+    },
+    {
+      "file": "examples/demo/images/RecordImage_20261021T060652417679Z_missing_resistor.png",
+      "bytes": 814831,
+      "sha256": "26c9728bfd2023eaeca54ac6184122ebbaa02f2527a340d6715b1705f2787308"
+    },
+    {
+      "file": "examples/demo/images/RecordImage_20261021T060652417679Z_multiple_defects.png",
+      "bytes": 813171,
+      "sha256": "bf64b61f88b28f45b009ec29d3d2f83a8d06d94c15f3642f7c84ebfc37d28d26"
+    },
+    {
+      "file": "examples/demo/images/RecordImage_20261021T060652417679Z_ok.png",
+      "bytes": 812671,
+      "sha256": "a51e4088e2f6c20db6709cd72e7bdff0a42fbfb43e1293091c908da96be7ea16"
+    },
+    {
+      "file": "examples/demo/images/RecordImage_20261021T060652417679Z_wrong_capacitor_colour.png",
+      "bytes": 815181,
+      "sha256": "1191b7c1ff0ed4bdd52bdf94e2ebc4a830f056b3889b035c488d9c7961ad9ba0"
+    },
+    {
+      "file": "examples/demo/images/SourceImage_20261021T060652417679Z_missing_capacitor.png",
+      "bytes": 817165,
+      "sha256": "98686664d5f8f4c67a65dff1b118c3cfb4cbec8e8e5aa6f335240200aeefae66"
+    },
+    {
+      "file": "examples/demo/images/SourceImage_20261021T060652417679Z_missing_chip.png",
+      "bytes": 816784,
+      "sha256": "e3e0eab189b71b5eed7dd4a51de512a7cbbeb31c91270545fe60838943a2d6d4"
+    },
+    {
+      "file": "examples/demo/images/SourceImage_20261021T060652417679Z_missing_resistor.png",
+      "bytes": 817709,
+      "sha256": "87ce4a73f44b2b13cc908ad6fa1b66a737ad86b7143870a0e927d0a791a5c0fa"
+    },
+    {
+      "file": "examples/demo/images/SourceImage_20261021T060652417679Z_multiple_defects.png",
+      "bytes": 815914,
+      "sha256": "d446c148895b22be36c8ef001f58a6388ad1f28ea9526ec7ef8556b95d7d7363"
+    },
+    {
+      "file": "examples/demo/images/SourceImage_20261021T060652417679Z_ok.png",
+      "bytes": 816008,
+      "sha256": "cbd58cae8b768ac3f6d1cf1b5143a1419bb8f18742dcc32e819a31ef926e9357"
+    },
+    {
+      "file": "examples/demo/images/SourceImage_20261021T060652417679Z_wrong_capacitor_colour.png",
+      "bytes": 818324,
+      "sha256": "0cd7df66bce07e2011dd82233dc8f6230127f5705a1dab31e2fa0515a2efd6b5"
+    },
+    {
+      "file": "examples/demo/index.html",
+      "bytes": 7944,
+      "sha256": "5585e89b3aa39879ea6575c21daef73a0532a4e24838cf37ac14909ddb45a2de"
+    },
+    {
+      "file": "examples/demo/missing_capacitor.json",
+      "bytes": 2500,
+      "sha256": "11a2739289af2ff6abb47d11016ab0e0229d0694b99b9a8a3d6b5faba2f2858f"
+    },
+    {
+      "file": "examples/demo/missing_chip.json",
+      "bytes": 2510,
+      "sha256": "68d7344e01bcf412ee9298079aff429126b3bbb0d19e9b5d09f8015bca202557"
+    },
+    {
+      "file": "examples/demo/missing_resistor.json",
+      "bytes": 2534,
+      "sha256": "917cfa9be9b2905166de6e599f41f0d13f6eea5f2b8e6ee6960ca58a6821fe73"
+    },
+    {
+      "file": "examples/demo/multiple_defects.json",
+      "bytes": 2494,
+      "sha256": "8a8c752be6102bd0d41189435501d741344f52c68779636f92a265aae571b6c7"
+    },
+    {
+      "file": "examples/demo/ok.json",
+      "bytes": 2496,
+      "sha256": "49f4bccd80dfc97293d83cf3870f2dfe013ec556d5dee4aeb853f6c14b873a77"
+    },
+    {
+      "file": "examples/demo/results.synthetic.csv",
+      "bytes": 1183,
+      "sha256": "aa92092c926acf539a4b4d0493f1fc0ca274454a6f3e9c882259dd421fd6d4d0"
+    },
+    {
+      "file": "examples/demo/roi.synthetic.json",
+      "bytes": 1181,
+      "sha256": "cfaafef458894632e83ca8df0687b9c2b4be03a422ffcb3492b83621f02f5f87"
+    },
+    {
+      "file": "examples/demo/summary.synthetic.json",
+      "bytes": 1316,
+      "sha256": "465a4471d1fec42b4c50f8d98f36134ec54ef9b6867ad3e12c232ed1fe8f9e8c"
+    },
+    {
+      "file": "examples/demo/user-log.jsonl",
+      "bytes": 864,
+      "sha256": "b38bb338b64b3c4921c0cdffd042fbb8790d0532ae31c0ff1ca1acbf6f3ffe3f"
+    },
+    {
+      "file": "examples/demo/wrong_capacitor_colour.json",
+      "bytes": 2537,
+      "sha256": "e6003833a986b3076d59f18721ea2e5eea72036d798623832aa44d2e216f8ae2"
+    },
+    {
+      "file": "examples/hardware.example.json",
+      "bytes": 996,
+      "sha256": "52d0161fd270b12b0e28f2a1b4f3ff3a41404211ebdb11ee1c2f67c0d19acfa5"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 1328,
+      "sha256": "708c80fe8ecea26fa342d20a751f0fc405a210f29cf661821835989bdd2b1d7c"
+    },
+    {
+      "file": "manifests/baseline-audit.json",
+      "bytes": 752,
+      "sha256": "e6075d2c4b3d3be562e30c84bd25be52f58a821af9c381d2fbf5024f0792f17a"
+    },
+    {
+      "file": "manifests/baseline-files.json",
+      "bytes": 15267,
+      "sha256": "aec6bea1a4a8b48e2645572501546952480d6887e516ea226d7e98e423894c3d"
+    },
+    {
+      "file": "manifests/external-images.json",
+      "bytes": 1783,
+      "sha256": "1173f698918a993d9c9ce63116cf65a24aa6717554b75dc4d532256d4f52dcf7"
+    },
+    {
+      "file": "manifests/extracted-training-images.json",
+      "bytes": 2285,
+      "sha256": "a7f507d671b69d50b01cae241fa2fd845396ca69775d429c88d8a15d568acaf4"
+    },
+    {
+      "file": "manifests/preparation-check.json",
+      "bytes": 211,
+      "sha256": "9906e1a33e8e575a13c2b3da3a719060dc9e51036d02dbe2339dc88053464605"
+    },
+    {
+      "file": "manifests/validation.json",
+      "bytes": 633,
+      "sha256": "30da695c33def2a5bb58ffbb52bea0d18d8856878edc1cdb93d9bbe398d1a093"
+    },
+    {
+      "file": "pyproject.toml",
+      "bytes": 643,
+      "sha256": "069188216fbee1ab1d4a92aef450536fb097c4025ff8fe28572544fc8a324554"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4393,
+      "sha256": "c7c7758cbbcd9e193cf5d3f6717b10eef3991ccc5cff9e0d8ae57abd8905b67e"
+    },
+    {
+      "file": "reference/visionplus/Config/DBManager/DBManager.dbmgr",
+      "bytes": 96,
+      "sha256": "7a8ae94e8371035b269514cd8d60ba6a2a3bce9a341ceac186818cf372086170"
+    },
+    {
+      "file": "reference/visionplus/Config/Device/Device.device",
+      "bytes": 333,
+      "sha256": "67a8e931b2762d935cfe9db3ac68aeb0b9553ed9b046960f6409a7fe99c82822"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Calibration/038_主机位1_主机位1.calhe",
+      "bytes": 20760068,
+      "sha256": "f465bd6d0b9c6d084a8d74a9f38377a26a8f3252162417ae3edef42d1f29c5f6"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Calibration/038_主机位1_主机位1.csv",
+      "bytes": 658,
+      "sha256": "23ccf4153beeae9cbf6386caa884d6a7a35e3ae9797d6d5c013022d4a073d3d3"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_11.groupflow",
+      "bytes": 36274,
+      "sha256": "e0c2ab987606904cbba1eb0b811773d4972078a8d3501c07bbb92a91f1008cc7"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_18.groupflow",
+      "bytes": 36466,
+      "sha256": "09a9c8a277704d20fff39c19c0562fb6d1fc283a873213a8ef25f5de6eaaef25"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_19.groupflow",
+      "bytes": 38360,
+      "sha256": "b93db6d31fc0e851c671d23cf32677d3830a564db2e54e4074d7ffdc72d5f88b"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_20.groupflow",
+      "bytes": 38395,
+      "sha256": "d0e2c6ec97244e792ff616437772eef95f2a036ce51f6b7a9a1d6e33841f5860"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_21.groupflow",
+      "bytes": 38441,
+      "sha256": "0066bfee90857c94e27a455e96cdd4f3e6dae7255fb25d98514738861b52926f"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_22.groupflow",
+      "bytes": 38449,
+      "sha256": "93a6fcf8995fdd50663069fbc41c0fc2c9f8738ed88f447ece3fa232f4fc0716"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_23.groupflow",
+      "bytes": 38450,
+      "sha256": "ae2b8f3b2a927c823e0ce3a7a14db7dc8d281ad874b4aee6f7225f8185c4e148"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_24.groupflow",
+      "bytes": 38706,
+      "sha256": "56e433d6102de298213c27bab6d5426457af06933c9d3c40064ac3ef388447c5"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_25.groupflow",
+      "bytes": 38439,
+      "sha256": "22abc15b9c505c4c3968105c79d893ffec4ffa80bac2bfa3515c607d9f609700"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_29.groupflow",
+      "bytes": 6487,
+      "sha256": "75a2fea4691666a20c55b192e3256da8d8b01fc34bc6db1c93cfcc3d6d4368e8"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_33.groupflow",
+      "bytes": 37413,
+      "sha256": "e5297e4ac9ce22db0a93f48d724150569b833c0c06d981257012b8e5b7dd726c"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/MainFlow/Main.page",
+      "bytes": 41964,
+      "sha256": "00c2d60a460371024ec4074a23a533619e300eec8e77ad5ba0e719fbb21eea60"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_37/AlgoFlowTree_ATOM_37#0.xml",
+      "bytes": 4881,
+      "sha256": "3ad162e7b938d23f76a86400fa2812f71b4f00efae4d1927eabe7b0ab695fb32"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_41/AlgoFlowTree_ATOM_41#0.xml",
+      "bytes": 24328171,
+      "sha256": "9da8f64c77c699fef2ece0d8c9e7deb15a29980457add30c6507d9b2c59fd9b5"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_49/AlgoFlowTree_ATOM_49#0.xml",
+      "bytes": 33152150,
+      "sha256": "2740d8296d2a9aa811e51043bf3d67fa35bacb63a9c9a705be7fb08f22fe4616"
+    },
+    {
+      "file": "reference/visionplus/Config/FlowAndTool/ModuleTool/GuideTool/038.vpcalib",
+      "bytes": 41571223,
+      "sha256": "5771b98cbc661c3952766e89c663bd89d82158194ff1e2c6a2f25f1280636996"
+    },
+    {
+      "file": "reference/visionplus/Config/HMIWindows/HMIWindow.window",
+      "bytes": 493,
+      "sha256": "24392f51883364c39abb35dae04bc17596d636045f5567dc674f6d041e5aa46c"
+    },
+    {
+      "file": "reference/visionplus/Config/Monitor/Monitor.mont",
+      "bytes": 61,
+      "sha256": "7ecfb7a8fbf20ca9b2750b5ddeb4c86959f11a44b5a8abe27ce690598256c5cd"
+    },
+    {
+      "file": "reference/visionplus/Config/Recipe/Recipe.recipe",
+      "bytes": 99,
+      "sha256": "b9d15e06b47a9ed8a676245e305831e710afaf658a267dcc2c2d0ecd89de7a28"
+    },
+    {
+      "file": "reference/visionplus/Config/Response/Response.rsp",
+      "bytes": 2068,
+      "sha256": "3355d188ee0bd06a24568c6facdbed990882f694b1b00fd6493717afc6d47995"
+    },
+    {
+      "file": "reference/visionplus/Config/Variable/Variable.variable",
+      "bytes": 4430,
+      "sha256": "7000171072315f6878e9c13592ade16c416b5fa407ad83962757e2da81ec349e"
+    },
+    {
+      "file": "reference/visionplus/Config/VpsLog/VpsLog.vpsLog",
+      "bytes": 327,
+      "sha256": "66fa72d3be80873fcfc5fb6cdfbaea6e07ed0951dab46eed9151c00bd060f12f"
+    },
+    {
+      "file": "reference/visionplus/FAIs/ATOM_54_c324a053-62f3-4243-8a96-d208f080a282.csv",
+      "bytes": 199,
+      "sha256": "c4d5c4d817a44aab8373e12706dd4251b2efb559290ec13a212db05c0493f5e1"
+    },
+    {
+      "file": "reference/visionplus/Icons/DCCK-Blue.png",
+      "bytes": 7298,
+      "sha256": "65901947624efdc8b63522e900247279eb57b4856dc7368641283818afde2eca"
+    },
+    {
+      "file": "reference/visionplus/Icons/DCCK-Lite.png",
+      "bytes": 951,
+      "sha256": "5873e8b1d8b4555e297273f1cb52ce8d43c2cf48f774de973c1969eb27186e56"
+    },
+    {
+      "file": "reference/visionplus/Icons/DCCK-White.png",
+      "bytes": 3225,
+      "sha256": "a4cb5d62b3362865ccb95c3a63bf8663d78c1893b6e5ceeabead306f34a001c4"
+    },
+    {
+      "file": "reference/visionplus/Icons/DCCK_logo.png",
+      "bytes": 47214,
+      "sha256": "30a5c7e455687f9ba4050c9080911080ab1372299caf5c485bf4b81624a70d37"
+    },
+    {
+      "file": "reference/visionplus/Icons/V+.png",
+      "bytes": 811,
+      "sha256": "d4215c1b5cee2cc09d5625e84fc2f794056b7878864b77c6462528efa8bf72eb"
+    },
+    {
+      "file": "reference/visionplus/Icons/仿图.png",
+      "bytes": 572,
+      "sha256": "41e77d3c5390debf6c0c268c8df00f1515c8bca25f9a297541251cc583793fd2"
+    },
+    {
+      "file": "reference/visionplus/Icons/保存.png",
+      "bytes": 516,
+      "sha256": "739d5b7eb32319051d8ad73f15834373f128436a1d12daf26f98125c266b51ad"
+    },
+    {
+      "file": "reference/visionplus/Icons/切换.png",
+      "bytes": 311,
+      "sha256": "7d3575564b9ac06a71dd205008921884a5a3eed2979f6b409ed6af56acdae2ab"
+    },
+    {
+      "file": "reference/visionplus/Icons/变量.png",
+      "bytes": 723,
+      "sha256": "c2230a61e5e7966f4cc6ff165f14a101db4eab7aa0cb3b780ac078beba3a3b3a"
+    },
+    {
+      "file": "reference/visionplus/Icons/图片.png",
+      "bytes": 471,
+      "sha256": "df97c5dc061be0b4933b3d51ae05dc28c6a17d2bc49420628246b9de0ca24774"
+    },
+    {
+      "file": "reference/visionplus/Icons/对话框.png",
+      "bytes": 255,
+      "sha256": "ad6ff550ee3c7002c6f0a871f83a088e591baf2c000d99fd39bbdff43ef59093"
+    },
+    {
+      "file": "reference/visionplus/Icons/帮助.png",
+      "bytes": 1007,
+      "sha256": "f37a1d65078b0511230e7988e80dc39f001b6c4d412d9abdaef9924c4fa89120"
+    },
+    {
+      "file": "reference/visionplus/Icons/手动触发.png",
+      "bytes": 812,
+      "sha256": "55c04c00c6d36df8b19a62772ec85035dad22cc9cca8e16addea5e39e78ab82a"
+    },
+    {
+      "file": "reference/visionplus/Icons/手眼标定.png",
+      "bytes": 468,
+      "sha256": "788847d7de303d5a62e2d987dba6def5467bae70a7e2342cb6b97c492a6ac46c"
+    },
+    {
+      "file": "reference/visionplus/Icons/数据表格.png",
+      "bytes": 249,
+      "sha256": "031655276421f54d5aece0e28f658aefb03d2ae9afbc1e1981183774b2b9e31f"
+    },
+    {
+      "file": "reference/visionplus/Icons/文件夹-1.png",
+      "bytes": 373,
+      "sha256": "df521ce841833a24aa252bea777f45b1b8c8f6e31814afe780331801a70e092e"
+    },
+    {
+      "file": "reference/visionplus/Icons/文件夹-2.png",
+      "bytes": 350,
+      "sha256": "0e22009537ac8fc7e397ecae5b1946c0b66ac8c5631b4aed066f40d5505c9f06"
+    },
+    {
+      "file": "reference/visionplus/Icons/日志.png",
+      "bytes": 448,
+      "sha256": "5eb72b98b2999ded058bb1e1fce988f735ca97e1d46136b42876972319e0fb5a"
+    },
+    {
+      "file": "reference/visionplus/Icons/机器视觉-1.png",
+      "bytes": 588,
+      "sha256": "69dd109e6deff12f4d04aa1476260e73fd70f93c240081b7a22c06ec34a1a872"
+    },
+    {
+      "file": "reference/visionplus/Icons/机器视觉-2.png",
+      "bytes": 722,
+      "sha256": "025629c78c66165002feb9076b4608600fecf08d8f254c2cd85eedb30c43199f"
+    },
+    {
+      "file": "reference/visionplus/Icons/用户.png",
+      "bytes": 705,
+      "sha256": "eb898162fc9e4f177b449aa1774da8d2d9ea38512dd48fa82d3d2886422f5f43"
+    },
+    {
+      "file": "reference/visionplus/Icons/用户管理.png",
+      "bytes": 803,
+      "sha256": "ed63e9f460cee7e397a809d5590004d818e485d66855e380df4e86495d3600f6"
+    },
+    {
+      "file": "reference/visionplus/Icons/相机.png",
+      "bytes": 506,
+      "sha256": "9cf18b844d0cd98ee36f54a5a1e8f652dad0e1b1b6b1ac9dc335ea2c60fadb5e"
+    },
+    {
+      "file": "reference/visionplus/Icons/结果图像.png",
+      "bytes": 474,
+      "sha256": "25d4f6de122f7828cc9e1a59687baf8696ed6069b5e821cbc360d71cd09347d5"
+    },
+    {
+      "file": "reference/visionplus/Icons/统计.png",
+      "bytes": 442,
+      "sha256": "58fbf8fcb508e5a4e3dc96d0b03e98609829c8fd5a834b178ae700c3301f18b3"
+    },
+    {
+      "file": "reference/visionplus/Icons/脚本.png",
+      "bytes": 654,
+      "sha256": "0ab423ac5f79218997c7550db6bebd97171655fe39c5914e6a7636875314793d"
+    },
+    {
+      "file": "reference/visionplus/Icons/触发.png",
+      "bytes": 687,
+      "sha256": "8395c537391b74eca5a79541799be038ca82fd9cafe2f5f269848ff768a2288e"
+    },
+    {
+      "file": "reference/visionplus/Icons/计算器.png",
+      "bytes": 320,
+      "sha256": "a0525d3020499b83687395b497ce97667316e9e78a9bf6881b33ffeec4797391"
+    },
+    {
+      "file": "reference/visionplus/Icons/设备.png",
+      "bytes": 1017,
+      "sha256": "bb2250eea6e0473d22492dc1d00a49c6b90b8f1ddb2201f5422667c5a22f4e6e"
+    },
+    {
+      "file": "reference/visionplus/Icons/设置-1.png",
+      "bytes": 501,
+      "sha256": "54fa070ea57fa89dbca21cf308fc2e58a6ba801e98b503297ce7aa0a78a9f343"
+    },
+    {
+      "file": "reference/visionplus/Icons/设置-2.png",
+      "bytes": 782,
+      "sha256": "9bc96ae2e43122732e15674d02a50d614244e27d5ebc4d41045d97152b1b59ee"
+    },
+    {
+      "file": "reference/visionplus/Icons/连接器.png",
+      "bytes": 430,
+      "sha256": "a1ec717397ee004d56ac3296e751dd627917a67d8aebcab7efdb74b9ecbf1935"
+    },
+    {
+      "file": "reference/visionplus/Icons/通讯.png",
+      "bytes": 287,
+      "sha256": "a369626e03df1bf330572e4024d3757dd6201cb03fc559bcc98699a7544d82ee"
+    },
+    {
+      "file": "reference/visionplus/Icons/配方.png",
+      "bytes": 492,
+      "sha256": "e35631b2c84930a90deeecfe84321ce3df79d532600da8ecd96a145631259f07"
+    },
+    {
+      "file": "reference/visionplus/Icons/饼图.png",
+      "bytes": 616,
+      "sha256": "9399f3501df2efdb9a9485102420ce02112403bf11f0930c5de9394702409827"
+    },
+    {
+      "file": "reference/visionplus/基线程序.png",
+      "bytes": 46698,
+      "sha256": "fe2448d56cd9691fd0dc3b146a5669dacc278f469d7c3da7543c9b6b5557257e"
+    },
+    {
+      "file": "reference/visionplus/基线程序.vpsx",
+      "bytes": 1104,
+      "sha256": "987196dd4455ff5473ff55063a139eadc0e9595653de0fd09b1009a30119153f"
+    },
+    {
+      "file": "requirements-dev.txt",
+      "bytes": 31,
+      "sha256": "8d05cd86fa54490168644ef85ac054de7d069bce345ffdf8fccc9dd1f92a32c9"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 32,
+      "sha256": "0fa896861a27f40b0f58a407a80589c2b087721ff84e283753d1057acf74540d"
+    },
+    {
+      "file": "tests/test_core.py",
+      "bytes": 7949,
+      "sha256": "dbdb64dad91d54805db91c84b3a0ef64f277c9c07773125238709fafd969dafb"
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2506,
+      "sha256": "f882a5d5b1de3c50825e23a02b6a1441deeb48ea108c597571f2c9d93eb560a3"
+    },
+    {
+      "file": "tools/package.py",
+      "bytes": 1817,
+      "sha256": "1baf8925cbba59ee6cfd6deba2c6e7c36b0a6b965a229a94b81e87c6f827a514"
+    },
+    {
+      "file": "tools/prepare_baseline.py",
+      "bytes": 1976,
+      "sha256": "8013bbfc79fc94ae1274b57b1c00b7d91829420378af4ff4cf696ca2ac971200"
+    },
+    {
+      "file": "tools/verify.py",
+      "bytes": 5085,
+      "sha256": "8ff4c7780318b4f26ba8cf8f1706e4aaf1a248242da6307b1c6380d04e5161d2"
+    },
+    {
+      "file": "visionprep/__init__.py",
+      "bytes": 100,
+      "sha256": "edfd8be98dd61beaa4d7640321bdd5e308c9f047105a9ea99c5038d1bd61214b"
+    },
+    {
+      "file": "visionprep/__main__.py",
+      "bytes": 2805,
+      "sha256": "c1e1ec821d29d71902baf044ff7ff50bf894d878d42929789d803045ccf20ba2"
+    },
+    {
+      "file": "visionprep/demo.py",
+      "bytes": 8006,
+      "sha256": "781991a91f72e8d5c22990d7da351719ee4403df5d15d4d5399f245771d3a587"
+    },
+    {
+      "file": "visionprep/geometry.py",
+      "bytes": 2451,
+      "sha256": "c6d3319e8055b7f2c88bf02fca858ef5a3ec94cdc92b6b9b4771ce0b53e83132"
+    },
+    {
+      "file": "visionprep/inspection.py",
+      "bytes": 2888,
+      "sha256": "ec9466acf298ff44ebdda606640dea40f95b9fac0d1a33c1d59e07d90f96aeae"
+    },
+    {
+      "file": "visionprep/protocols.py",
+      "bytes": 5752,
+      "sha256": "1e9c53a7fd95d44876beed70f602ff585df9b2d61c5536468a80c358382cc12e"
+    },
+    {
+      "file": "visionprep/samples.py",
+      "bytes": 2963,
+      "sha256": "61aa63bacc7e4eda4dbd52cde16a855434c369058bad537ec4ed1476fba0d796"
+    },
+    {
+      "file": "项目预览.html",
+      "bytes": 3363,
+      "sha256": "04fc1f96ad6e8e084924ca708968ce3eeae605023b17d0421af15c0316878397"
+    }
+  ]
+}

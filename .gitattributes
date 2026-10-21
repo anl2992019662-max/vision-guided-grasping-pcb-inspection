@@ -1,0 +1,7 @@
+# Preserve original platform configuration and image bytes.
+* -text
+*.png binary
+*.jpg binary
+*.vpsx binary
+*.vpcalib -diff
+*.calhe -diff

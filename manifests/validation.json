@@ -1,0 +1,18 @@
+{
+  "software_tests": {
+    "passed": 34,
+    "synthetic_inspection_regression_cases": 18,
+    "seed_count": 3,
+    "scope": "software and clearly synthetic data; not physical hardware performance"
+  },
+  "baseline_files": 64,
+  "raw_embedded_reference_images": 4,
+  "taskbook_figures": 4,
+  "original_engineering_svgs": 7,
+  "external_reference_photos": 2,
+  "original_hmi_controls": 0,
+  "hardware_integration": "not performed",
+  "photos_claimed_author_owned": false,
+  "real_measurements_fabricated": false,
+  "origin_authorization": "provider explicitly approved publishing taskbook and baseline while preserving attribution"
+}

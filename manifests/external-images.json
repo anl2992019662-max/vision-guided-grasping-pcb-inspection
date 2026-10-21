@@ -1,0 +1,33 @@
+[
+  {
+    "file": "docs/images/reference/robot-reference.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:KUKA_Industrial_Robot_KR10_SCARA.jpg",
+    "source_file": "https://upload.wikimedia.org/wikipedia/commons/2/2d/KUKA_Industrial_Robot_KR10_SCARA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "author_and_license": {
+      "Credit": "Jo Teichmann, Augsburg, Germany for KUKA Roboter GmbH",
+      "Artist": "Jo Teichmann",
+      "LicenseShortName": "Public domain",
+      "UsageTerms": "Public domain",
+      "AttributionRequired": "false"
+    },
+    "sha256": "395713f2ba5ad3456eefeff63cd46b244b14d438c7cfb4e1c87b426a540b24f2",
+    "modifications": "none; original bytes preserved",
+    "usage": "external hardware appearance reference; not author-owned equipment or a matched bill of materials"
+  },
+  {
+    "file": "docs/images/reference/camera-reference.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:SVCam-ECO_Series_black_with_Tubus.JPG",
+    "source_file": "https://upload.wikimedia.org/wikipedia/commons/2/2f/SVCam-ECO_Series_black_with_Tubus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "author_and_license": {
+      "Credit": "Own work",
+      "Artist": "Alexander Lucke",
+      "LicenseShortName": "CC BY-SA 3.0",
+      "UsageTerms": "Creative Commons Attribution-Share Alike 3.0",
+      "AttributionRequired": "true",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sha256": "6882fba51eaa084d38f21e3edc622811ba07d3107942e12f85dd97a83486832d",
+    "modifications": "none; original bytes preserved",
+    "usage": "external hardware appearance reference; not author-owned equipment or a matched bill of materials"
+  }
+]

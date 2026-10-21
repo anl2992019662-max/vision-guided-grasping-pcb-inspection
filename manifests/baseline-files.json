@@ -1,0 +1,386 @@
+[
+  {
+    "file": "reference/visionplus/基线程序.png",
+    "sha256": "fe2448d56cd9691fd0dc3b146a5669dacc278f469d7c3da7543c9b6b5557257e",
+    "source_relative": "基线程序.png",
+    "bytes": 46698
+  },
+  {
+    "file": "reference/visionplus/基线程序.vpsx",
+    "sha256": "987196dd4455ff5473ff55063a139eadc0e9595653de0fd09b1009a30119153f",
+    "source_relative": "基线程序.vpsx",
+    "bytes": 1104
+  },
+  {
+    "file": "reference/visionplus/FAIs/ATOM_54_c324a053-62f3-4243-8a96-d208f080a282.csv",
+    "sha256": "c4d5c4d817a44aab8373e12706dd4251b2efb559290ec13a212db05c0493f5e1",
+    "source_relative": "FAIs/ATOM_54_c324a053-62f3-4243-8a96-d208f080a282.csv",
+    "bytes": 199
+  },
+  {
+    "file": "reference/visionplus/Icons/DCCK-Blue.png",
+    "sha256": "65901947624efdc8b63522e900247279eb57b4856dc7368641283818afde2eca",
+    "source_relative": "Icons/DCCK-Blue.png",
+    "bytes": 7298
+  },
+  {
+    "file": "reference/visionplus/Icons/DCCK-Lite.png",
+    "sha256": "5873e8b1d8b4555e297273f1cb52ce8d43c2cf48f774de973c1969eb27186e56",
+    "source_relative": "Icons/DCCK-Lite.png",
+    "bytes": 951
+  },
+  {
+    "file": "reference/visionplus/Icons/DCCK-White.png",
+    "sha256": "a4cb5d62b3362865ccb95c3a63bf8663d78c1893b6e5ceeabead306f34a001c4",
+    "source_relative": "Icons/DCCK-White.png",
+    "bytes": 3225
+  },
+  {
+    "file": "reference/visionplus/Icons/DCCK_logo.png",
+    "sha256": "30a5c7e455687f9ba4050c9080911080ab1372299caf5c485bf4b81624a70d37",
+    "source_relative": "Icons/DCCK_logo.png",
+    "bytes": 47214
+  },
+  {
+    "file": "reference/visionplus/Icons/V+.png",
+    "sha256": "d4215c1b5cee2cc09d5625e84fc2f794056b7878864b77c6462528efa8bf72eb",
+    "source_relative": "Icons/V+.png",
+    "bytes": 811
+  },
+  {
+    "file": "reference/visionplus/Icons/仿图.png",
+    "sha256": "41e77d3c5390debf6c0c268c8df00f1515c8bca25f9a297541251cc583793fd2",
+    "source_relative": "Icons/仿图.png",
+    "bytes": 572
+  },
+  {
+    "file": "reference/visionplus/Icons/保存.png",
+    "sha256": "739d5b7eb32319051d8ad73f15834373f128436a1d12daf26f98125c266b51ad",
+    "source_relative": "Icons/保存.png",
+    "bytes": 516
+  },
+  {
+    "file": "reference/visionplus/Icons/切换.png",
+    "sha256": "7d3575564b9ac06a71dd205008921884a5a3eed2979f6b409ed6af56acdae2ab",
+    "source_relative": "Icons/切换.png",
+    "bytes": 311
+  },
+  {
+    "file": "reference/visionplus/Icons/变量.png",
+    "sha256": "c2230a61e5e7966f4cc6ff165f14a101db4eab7aa0cb3b780ac078beba3a3b3a",
+    "source_relative": "Icons/变量.png",
+    "bytes": 723
+  },
+  {
+    "file": "reference/visionplus/Icons/图片.png",
+    "sha256": "df97c5dc061be0b4933b3d51ae05dc28c6a17d2bc49420628246b9de0ca24774",
+    "source_relative": "Icons/图片.png",
+    "bytes": 471
+  },
+  {
+    "file": "reference/visionplus/Icons/对话框.png",
+    "sha256": "ad6ff550ee3c7002c6f0a871f83a088e591baf2c000d99fd39bbdff43ef59093",
+    "source_relative": "Icons/对话框.png",
+    "bytes": 255
+  },
+  {
+    "file": "reference/visionplus/Icons/帮助.png",
+    "sha256": "f37a1d65078b0511230e7988e80dc39f001b6c4d412d9abdaef9924c4fa89120",
+    "source_relative": "Icons/帮助.png",
+    "bytes": 1007
+  },
+  {
+    "file": "reference/visionplus/Icons/手动触发.png",
+    "sha256": "55c04c00c6d36df8b19a62772ec85035dad22cc9cca8e16addea5e39e78ab82a",
+    "source_relative": "Icons/手动触发.png",
+    "bytes": 812
+  },
+  {
+    "file": "reference/visionplus/Icons/手眼标定.png",
+    "sha256": "788847d7de303d5a62e2d987dba6def5467bae70a7e2342cb6b97c492a6ac46c",
+    "source_relative": "Icons/手眼标定.png",
+    "bytes": 468
+  },
+  {
+    "file": "reference/visionplus/Icons/数据表格.png",
+    "sha256": "031655276421f54d5aece0e28f658aefb03d2ae9afbc1e1981183774b2b9e31f",
+    "source_relative": "Icons/数据表格.png",
+    "bytes": 249
+  },
+  {
+    "file": "reference/visionplus/Icons/文件夹-1.png",
+    "sha256": "df521ce841833a24aa252bea777f45b1b8c8f6e31814afe780331801a70e092e",
+    "source_relative": "Icons/文件夹-1.png",
+    "bytes": 373
+  },
+  {
+    "file": "reference/visionplus/Icons/文件夹-2.png",
+    "sha256": "0e22009537ac8fc7e397ecae5b1946c0b66ac8c5631b4aed066f40d5505c9f06",
+    "source_relative": "Icons/文件夹-2.png",
+    "bytes": 350
+  },
+  {
+    "file": "reference/visionplus/Icons/日志.png",
+    "sha256": "5eb72b98b2999ded058bb1e1fce988f735ca97e1d46136b42876972319e0fb5a",
+    "source_relative": "Icons/日志.png",
+    "bytes": 448
+  },
+  {
+    "file": "reference/visionplus/Icons/机器视觉-1.png",
+    "sha256": "69dd109e6deff12f4d04aa1476260e73fd70f93c240081b7a22c06ec34a1a872",
+    "source_relative": "Icons/机器视觉-1.png",
+    "bytes": 588
+  },
+  {
+    "file": "reference/visionplus/Icons/机器视觉-2.png",
+    "sha256": "025629c78c66165002feb9076b4608600fecf08d8f254c2cd85eedb30c43199f",
+    "source_relative": "Icons/机器视觉-2.png",
+    "bytes": 722
+  },
+  {
+    "file": "reference/visionplus/Icons/用户.png",
+    "sha256": "eb898162fc9e4f177b449aa1774da8d2d9ea38512dd48fa82d3d2886422f5f43",
+    "source_relative": "Icons/用户.png",
+    "bytes": 705
+  },
+  {
+    "file": "reference/visionplus/Icons/用户管理.png",
+    "sha256": "ed63e9f460cee7e397a809d5590004d818e485d66855e380df4e86495d3600f6",
+    "source_relative": "Icons/用户管理.png",
+    "bytes": 803
+  },
+  {
+    "file": "reference/visionplus/Icons/相机.png",
+    "sha256": "9cf18b844d0cd98ee36f54a5a1e8f652dad0e1b1b6b1ac9dc335ea2c60fadb5e",
+    "source_relative": "Icons/相机.png",
+    "bytes": 506
+  },
+  {
+    "file": "reference/visionplus/Icons/结果图像.png",
+    "sha256": "25d4f6de122f7828cc9e1a59687baf8696ed6069b5e821cbc360d71cd09347d5",
+    "source_relative": "Icons/结果图像.png",
+    "bytes": 474
+  },
+  {
+    "file": "reference/visionplus/Icons/统计.png",
+    "sha256": "58fbf8fcb508e5a4e3dc96d0b03e98609829c8fd5a834b178ae700c3301f18b3",
+    "source_relative": "Icons/统计.png",
+    "bytes": 442
+  },
+  {
+    "file": "reference/visionplus/Icons/脚本.png",
+    "sha256": "0ab423ac5f79218997c7550db6bebd97171655fe39c5914e6a7636875314793d",
+    "source_relative": "Icons/脚本.png",
+    "bytes": 654
+  },
+  {
+    "file": "reference/visionplus/Icons/触发.png",
+    "sha256": "8395c537391b74eca5a79541799be038ca82fd9cafe2f5f269848ff768a2288e",
+    "source_relative": "Icons/触发.png",
+    "bytes": 687
+  },
+  {
+    "file": "reference/visionplus/Icons/计算器.png",
+    "sha256": "a0525d3020499b83687395b497ce97667316e9e78a9bf6881b33ffeec4797391",
+    "source_relative": "Icons/计算器.png",
+    "bytes": 320
+  },
+  {
+    "file": "reference/visionplus/Icons/设备.png",
+    "sha256": "bb2250eea6e0473d22492dc1d00a49c6b90b8f1ddb2201f5422667c5a22f4e6e",
+    "source_relative": "Icons/设备.png",
+    "bytes": 1017
+  },
+  {
+    "file": "reference/visionplus/Icons/设置-1.png",
+    "sha256": "54fa070ea57fa89dbca21cf308fc2e58a6ba801e98b503297ce7aa0a78a9f343",
+    "source_relative": "Icons/设置-1.png",
+    "bytes": 501
+  },
+  {
+    "file": "reference/visionplus/Icons/设置-2.png",
+    "sha256": "9bc96ae2e43122732e15674d02a50d614244e27d5ebc4d41045d97152b1b59ee",
+    "source_relative": "Icons/设置-2.png",
+    "bytes": 782
+  },
+  {
+    "file": "reference/visionplus/Icons/连接器.png",
+    "sha256": "a1ec717397ee004d56ac3296e751dd627917a67d8aebcab7efdb74b9ecbf1935",
+    "source_relative": "Icons/连接器.png",
+    "bytes": 430
+  },
+  {
+    "file": "reference/visionplus/Icons/通讯.png",
+    "sha256": "a369626e03df1bf330572e4024d3757dd6201cb03fc559bcc98699a7544d82ee",
+    "source_relative": "Icons/通讯.png",
+    "bytes": 287
+  },
+  {
+    "file": "reference/visionplus/Icons/配方.png",
+    "sha256": "e35631b2c84930a90deeecfe84321ce3df79d532600da8ecd96a145631259f07",
+    "source_relative": "Icons/配方.png",
+    "bytes": 492
+  },
+  {
+    "file": "reference/visionplus/Icons/饼图.png",
+    "sha256": "9399f3501df2efdb9a9485102420ce02112403bf11f0930c5de9394702409827",
+    "source_relative": "Icons/饼图.png",
+    "bytes": 616
+  },
+  {
+    "file": "reference/visionplus/Config/DBManager/DBManager.dbmgr",
+    "sha256": "7a8ae94e8371035b269514cd8d60ba6a2a3bce9a341ceac186818cf372086170",
+    "source_relative": "Config/DBManager/DBManager.dbmgr",
+    "bytes": 96
+  },
+  {
+    "file": "reference/visionplus/Config/Device/Device.device",
+    "sha256": "67a8e931b2762d935cfe9db3ac68aeb0b9553ed9b046960f6409a7fe99c82822",
+    "source_relative": "Config/Device/Device.device",
+    "bytes": 333
+  },
+  {
+    "file": "reference/visionplus/Config/HMIWindows/HMIWindow.window",
+    "sha256": "24392f51883364c39abb35dae04bc17596d636045f5567dc674f6d041e5aa46c",
+    "source_relative": "Config/HMIWindows/HMIWindow.window",
+    "bytes": 493
+  },
+  {
+    "file": "reference/visionplus/Config/Monitor/Monitor.mont",
+    "sha256": "7ecfb7a8fbf20ca9b2750b5ddeb4c86959f11a44b5a8abe27ce690598256c5cd",
+    "source_relative": "Config/Monitor/Monitor.mont",
+    "bytes": 61
+  },
+  {
+    "file": "reference/visionplus/Config/Recipe/Recipe.recipe",
+    "sha256": "b9d15e06b47a9ed8a676245e305831e710afaf658a267dcc2c2d0ecd89de7a28",
+    "source_relative": "Config/Recipe/Recipe.recipe",
+    "bytes": 99
+  },
+  {
+    "file": "reference/visionplus/Config/Response/Response.rsp",
+    "sha256": "3355d188ee0bd06a24568c6facdbed990882f694b1b00fd6493717afc6d47995",
+    "source_relative": "Config/Response/Response.rsp",
+    "bytes": 2068
+  },
+  {
+    "file": "reference/visionplus/Config/Variable/Variable.variable",
+    "sha256": "7000171072315f6878e9c13592ade16c416b5fa407ad83962757e2da81ec349e",
+    "source_relative": "Config/Variable/Variable.variable",
+    "bytes": 4430
+  },
+  {
+    "file": "reference/visionplus/Config/VpsLog/VpsLog.vpsLog",
+    "sha256": "66fa72d3be80873fcfc5fb6cdfbaea6e07ed0951dab46eed9151c00bd060f12f",
+    "source_relative": "Config/VpsLog/VpsLog.vpsLog",
+    "bytes": 327
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Calibration/038_主机位1_主机位1.calhe",
+    "sha256": "f465bd6d0b9c6d084a8d74a9f38377a26a8f3252162417ae3edef42d1f29c5f6",
+    "source_relative": "Config/FlowAndTool/Calibration/038_主机位1_主机位1.calhe",
+    "bytes": 20760068
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Calibration/038_主机位1_主机位1.csv",
+    "sha256": "23ccf4153beeae9cbf6386caa884d6a7a35e3ae9797d6d5c013022d4a073d3d3",
+    "source_relative": "Config/FlowAndTool/Calibration/038_主机位1_主机位1.csv",
+    "bytes": 658
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_11.groupflow",
+    "sha256": "e0c2ab987606904cbba1eb0b811773d4972078a8d3501c07bbb92a91f1008cc7",
+    "source_relative": "Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_11.groupflow",
+    "bytes": 36274
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_18.groupflow",
+    "sha256": "09a9c8a277704d20fff39c19c0562fb6d1fc283a873213a8ef25f5de6eaaef25",
+    "source_relative": "Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_18.groupflow",
+    "bytes": 36466
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_19.groupflow",
+    "sha256": "b93db6d31fc0e851c671d23cf32677d3830a564db2e54e4074d7ffdc72d5f88b",
+    "source_relative": "Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_19.groupflow",
+    "bytes": 38360
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_20.groupflow",
+    "sha256": "d0e2c6ec97244e792ff616437772eef95f2a036ce51f6b7a9a1d6e33841f5860",
+    "source_relative": "Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_20.groupflow",
+    "bytes": 38395
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_21.groupflow",
+    "sha256": "0066bfee90857c94e27a455e96cdd4f3e6dae7255fb25d98514738861b52926f",
+    "source_relative": "Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_21.groupflow",
+    "bytes": 38441
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_22.groupflow",
+    "sha256": "93a6fcf8995fdd50663069fbc41c0fc2c9f8738ed88f447ece3fa232f4fc0716",
+    "source_relative": "Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_22.groupflow",
+    "bytes": 38449
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_23.groupflow",
+    "sha256": "ae2b8f3b2a927c823e0ce3a7a14db7dc8d281ad874b4aee6f7225f8185c4e148",
+    "source_relative": "Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_23.groupflow",
+    "bytes": 38450
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_24.groupflow",
+    "sha256": "56e433d6102de298213c27bab6d5426457af06933c9d3c40064ac3ef388447c5",
+    "source_relative": "Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_24.groupflow",
+    "bytes": 38706
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_25.groupflow",
+    "sha256": "22abc15b9c505c4c3968105c79d893ffec4ffa80bac2bfa3515c607d9f609700",
+    "source_relative": "Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_25.groupflow",
+    "bytes": 38439
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_29.groupflow",
+    "sha256": "75a2fea4691666a20c55b192e3256da8d8b01fc34bc6db1c93cfcc3d6d4368e8",
+    "source_relative": "Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_29.groupflow",
+    "bytes": 6487
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_33.groupflow",
+    "sha256": "e5297e4ac9ce22db0a93f48d724150569b833c0c06d981257012b8e5b7dd726c",
+    "source_relative": "Config/FlowAndTool/Flow/GroupFlow/GroupFlowPage_ATOM_33.groupflow",
+    "bytes": 37413
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/MainFlow/Main.page",
+    "sha256": "00c2d60a460371024ec4074a23a533619e300eec8e77ad5ba0e719fbb21eea60",
+    "source_relative": "Config/FlowAndTool/Flow/MainFlow/Main.page",
+    "bytes": 41964
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_37/AlgoFlowTree_ATOM_37#0.xml",
+    "sha256": "3ad162e7b938d23f76a86400fa2812f71b4f00efae4d1927eabe7b0ab695fb32",
+    "source_relative": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_37/AlgoFlowTree_ATOM_37#0.xml",
+    "bytes": 4881
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_41/AlgoFlowTree_ATOM_41#0.xml",
+    "sha256": "9da8f64c77c699fef2ece0d8c9e7deb15a29980457add30c6507d9b2c59fd9b5",
+    "source_relative": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_41/AlgoFlowTree_ATOM_41#0.xml",
+    "bytes": 24328171
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_49/AlgoFlowTree_ATOM_49#0.xml",
+    "sha256": "2740d8296d2a9aa811e51043bf3d67fa35bacb63a9c9a705be7fb08f22fe4616",
+    "source_relative": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_49/AlgoFlowTree_ATOM_49#0.xml",
+    "bytes": 33152150
+  },
+  {
+    "file": "reference/visionplus/Config/FlowAndTool/ModuleTool/GuideTool/038.vpcalib",
+    "sha256": "5771b98cbc661c3952766e89c663bd89d82158194ff1e2c6a2f25f1280636996",
+    "source_relative": "Config/FlowAndTool/ModuleTool/GuideTool/038.vpcalib",
+    "bytes": 41571223
+  }
+]

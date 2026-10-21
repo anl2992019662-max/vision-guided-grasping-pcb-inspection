@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceService>
+  <Device ID="Device_4" Key="Communication.SerialPort" CustName="" Sequence="1" LastStatus="Closed">
+    <Setting BaudRate="115200" DataBits="8" StopBits="One" Parity="None" Dtr="false" SyncRead="false">
+      <RefSources />
+    </Setting>
+  </Device>
+</DeviceService>

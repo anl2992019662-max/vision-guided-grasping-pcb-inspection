@@ -1,0 +1,6 @@
+{"event": "inspection_finished", "is_synthetic": true, "sample": "ok", "passed": true, "timestamp_utc": "20261021T060652417679Z"}
+{"event": "inspection_finished", "is_synthetic": true, "sample": "missing_resistor", "passed": false, "timestamp_utc": "20261021T060652417679Z"}
+{"event": "inspection_finished", "is_synthetic": true, "sample": "missing_capacitor", "passed": false, "timestamp_utc": "20261021T060652417679Z"}
+{"event": "inspection_finished", "is_synthetic": true, "sample": "wrong_capacitor_colour", "passed": false, "timestamp_utc": "20261021T060652417679Z"}
+{"event": "inspection_finished", "is_synthetic": true, "sample": "missing_chip", "passed": false, "timestamp_utc": "20261021T060652417679Z"}
+{"event": "inspection_finished", "is_synthetic": true, "sample": "multiple_defects", "passed": false, "timestamp_utc": "20261021T060652417679Z"}

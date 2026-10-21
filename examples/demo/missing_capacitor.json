@@ -1,0 +1,117 @@
+{
+  "passed": false,
+  "components": [
+    {
+      "id": "R1",
+      "kind": "resistor",
+      "box": [
+        160,
+        180,
+        240,
+        220
+      ],
+      "passed": true,
+      "metrics": {
+        "gray_mean": 101.41875,
+        "gray_variance": 4741.7440234375
+      }
+    },
+    {
+      "id": "R2",
+      "kind": "resistor",
+      "box": [
+        160,
+        280,
+        240,
+        320
+      ],
+      "passed": true,
+      "metrics": {
+        "gray_mean": 101.4425,
+        "gray_variance": 4742.76856875
+      }
+    },
+    {
+      "id": "R3",
+      "kind": "resistor",
+      "box": [
+        160,
+        380,
+        240,
+        420
+      ],
+      "passed": true,
+      "metrics": {
+        "gray_mean": 101.4534375,
+        "gray_variance": 4745.909081933594
+      }
+    },
+    {
+      "id": "C1",
+      "kind": "capacitor",
+      "box": [
+        330,
+        180,
+        390,
+        240
+      ],
+      "passed": false,
+      "metrics": {
+        "gray_mean": 87.59083333333334,
+        "gray_variance": 313.84063819444447,
+        "orange_fraction": 0.0,
+        "green_fraction": 0.95
+      }
+    },
+    {
+      "id": "C2",
+      "kind": "capacitor",
+      "box": [
+        330,
+        360,
+        390,
+        420
+      ],
+      "passed": true,
+      "metrics": {
+        "gray_mean": 139.47055555555556,
+        "gray_variance": 1725.8863552469134,
+        "orange_fraction": 0.5911111111111111,
+        "green_fraction": 0.31277777777777777
+      }
+    },
+    {
+      "id": "U1",
+      "kind": "chip",
+      "box": [
+        500,
+        220,
+        660,
+        360
+      ],
+      "passed": true,
+      "metrics": {
+        "gray_mean": 44.143169642857146,
+        "gray_variance": 1334.217939953364,
+        "dark_fraction": 0.9198214285714286
+      }
+    }
+  ],
+  "method": "fixed registered ROIs: gray variance, HSV colour fraction and dark-pixel fraction",
+  "scope": "training reference, thresholds require validation on independent real images",
+  "sample_id": "missing_capacitor",
+  "is_synthetic": true,
+  "data_origin": "generated training fixture",
+  "timestamp_utc": "20261021T060652417679Z",
+  "source_image": "images/SourceImage_20261021T060652417679Z_missing_capacitor.png",
+  "record_image": "images/RecordImage_20261021T060652417679Z_missing_capacitor.png",
+  "robot_plan": {
+    "mode": "offline string only",
+    "target_xy_mm": [
+      204.00000000000009,
+      134.0
+    ],
+    "command": "x204y134z50a0"
+  },
+  "plc_result_demo_code": 2
+}

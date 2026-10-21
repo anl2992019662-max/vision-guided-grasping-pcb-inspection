@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LogService>
+  <UserLogSetting />
+  <OperationLogSetting>
+    <LogItem DisplayName="操作日志" FolderName="20260622" ID="OperationLog" />
+  </OperationLogSetting>
+  <Config>
+    <Serilog DisplayCount="50" RetainedFileTimeLimit="30" Level="Info" />
+  </Config>
+</LogService>

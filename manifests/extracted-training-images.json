@@ -1,0 +1,50 @@
+[
+  {
+    "file": "docs/images/source/training-reference-01.png",
+    "source": "reference/visionplus/Config/FlowAndTool/Calibration/038_主机位1_主机位1.calhe",
+    "image_id": "9bfabe17-687d-4277-9517-12b613183078",
+    "dimensions": [
+      2592,
+      1944
+    ],
+    "raw_pixel_sha256": "ab0c109ef8f4b6ecc557b0b6056b1778cf068200dc7d46471655c8b671c88966",
+    "sha256": "2c76405ee28b578ad90463f246ca586e726c92a91dd578d031bb7dee4507ebf2",
+    "provenance": "image embedded in authorized training baseline; not user hardware photograph or new test output"
+  },
+  {
+    "file": "docs/images/source/training-reference-02.png",
+    "source": "reference/visionplus/Config/FlowAndTool/Calibration/038_主机位1_主机位1.calhe",
+    "image_id": "870d2fc3-927d-49ea-8fdf-37f5537ab5c3",
+    "dimensions": [
+      2592,
+      1944
+    ],
+    "raw_pixel_sha256": "570205baf1aecb57dae8c9f91c5a43211d5c95303d0ff58fdf9958f91f822cdf",
+    "sha256": "d9f2959717fc799c9f857a2932fcdc51ced88fdf0a3d019c13faee69d2da5eaa",
+    "provenance": "image embedded in authorized training baseline; not user hardware photograph or new test output"
+  },
+  {
+    "file": "docs/images/source/training-reference-03.png",
+    "source": "reference/visionplus/Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_41/AlgoFlowTree_ATOM_41#0.xml",
+    "image_id": "40ec53f3-656c-4011-904c-8af036e3fb6f",
+    "dimensions": [
+      2592,
+      1944
+    ],
+    "raw_pixel_sha256": "e05eb760b9e5c0218e21be7a286446ad3c54d283f1fc53fed3123c2ef9ddd345",
+    "sha256": "832b5e47766862005291b34f0ed436baafc8a36088d188b54e616045904c0b01",
+    "provenance": "image embedded in authorized training baseline; not user hardware photograph or new test output"
+  },
+  {
+    "file": "docs/images/source/training-reference-04.png",
+    "source": "reference/visionplus/Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_49/AlgoFlowTree_ATOM_49#0.xml",
+    "image_id": "5627c2aa-02a1-4c3d-8f4a-ca9144e8ceff",
+    "dimensions": [
+      2592,
+      1944
+    ],
+    "raw_pixel_sha256": "cb8ccaa844e9c200ddbe12e02cbcee634e84bc7ecce05d31a1a8c6c3c53af8e3",
+    "sha256": "c93e230dfadc2f6cb627cd332281148a5e2586ef1e214ba49193793c2511dde6",
+    "provenance": "image embedded in authorized training baseline; not user hardware photograph or new test output"
+  }
+]
